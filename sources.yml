@@ -1,0 +1,32 @@
+# sources.yml
+schema_version: "1.0"
+mcp_name: "Nepal Law MCP"
+jurisdiction: "NP"
+
+sources:
+  - name: "Nepal Official Legal Database"
+    authority: "Government of Nepal"
+    official_portal: "https://lawcommission.gov.np"
+    canonical_identifier: "TBD"
+    retrieval_method: "HTML"
+    api_documentation: "N/A"
+    update_frequency: "TBD"
+    last_ingested: "PENDING_FIRST_INGEST"
+    license_or_terms:
+      type: "Government Publication"
+      url: "https://lawcommission.gov.np"
+      summary: "Official government legal database; legislation is public domain as government publication"
+    coverage:
+      scope: "TBD -- update after census"
+      limitations: "TBD -- update after census"
+    languages:
+      - "en"
+
+data_freshness:
+  automated_checks: false
+  check_frequency: "TBD"
+  last_verified: "2026-02-27"
+
+# Notes:
+# - Source URL: lawcommission.gov.np
+# - Update this file after completing census and first ingestion
