@@ -20,20 +20,8 @@
 | Ingestable | 700 |
 | Ingested | 696 |
 | Excluded | 333 |
-| Inaccessible | 148 |
 | Provisions extracted | 47,513 |
 | **Coverage** | **99.4%** |
-
-## Failed Ingestions
-
-4 ingestable laws could not be processed:
-
-| ID | Title | Reason |
-|-----|-------|--------|
-| np-content-13467 | For National Unity | PDF unavailable or text extraction failed |
-| np-content-13539 | Honanary Consal Regulations 2039 | PDF unavailable or text extraction failed |
-| np-content-13440 | Let S Celebrate The Constitution Day And National | PDF unavailable or text extraction failed |
-| np-content-13471 | Railway Ordinance 2069 | PDF unavailable or text extraction failed |
 
 ## Laws (696 ingested)
 
@@ -89,7 +77,7 @@
 | Army Act 2063 | [link](https://lawcommission.gov.np/content/13448/army-act--2063) | in_force | 150 |
 | Army Praband Privcens Remission Promotional And Service | [link](https://lawcommission.gov.np/content/13349/army-praband-privcens--remission--promotional-and-service-) | in_force | 6 |
 | Asset Management Regulations O | [link](https://lawcommission.gov.np/content/12432/12432-asset-management-regulations-o) | in_force | 36 |
-| Association Pradesh And Located Coordinating And Interralati | [link](https://lawcommission.gov.np/content/13419/association--pradesh-and-located--coordinating-and-interralation-) | in_force | 28 |
+| Association Pradesh And Located Coordinating And Interralation | [link](https://lawcommission.gov.np/content/13419/association--pradesh-and-located--coordinating-and-interralation-) | in_force | 28 |
 | Association Registration Act | [link](https://lawcommission.gov.np/content/12249/12249-association-registration-act) | in_force | 21 |
 | Authentication Of Public Docu | [link](https://lawcommission.gov.np/content/12484/12484-authentication-of-public-docu) | in_force | 11 |
 | Ayurveda Medical Council Act | [link](https://lawcommission.gov.np/content/12788/12788-ayurveda-medical-council-act) | in_force | 5 |
@@ -99,7 +87,7 @@
 | Banks And Financial Institutio | [link](https://lawcommission.gov.np/content/12795/12795-banks-and-financial-institutio) | in_force | 56 |
 | Bardiya National Health Regula | [link](https://lawcommission.gov.np/content/12761/12761-bardiya-national-health-regula) | in_force | 57 |
 | Bea Seizing Rules 2081 | [link](https://lawcommission.gov.np/content/13499/bea-seizing-rules--2081) | in_force | 216 |
-| Bhaktapur Cancer Hospital Development Committee Formation Or | [link](https://lawcommission.gov.np/content/13502/bhaktapur-cancer-hospital-development-committee--formation--order-) | in_force | 22 |
+| Bhaktapur Cancer Hospital Development Committee Formation Order | [link](https://lawcommission.gov.np/content/13502/bhaktapur-cancer-hospital-development-committee--formation--order-) | in_force | 22 |
 | Bill For Amending Sexual Abuse Of Sexual | [link](https://lawcommission.gov.np/content/12300/bill-for-amending-sexual-abuse-of-sexual) | in_force | 11 |
 | Bill Formed And Unification Of Social Organizations | [link](https://lawcommission.gov.np/content/12333/bill-formed-and-unification-of-social-organizations) | in_force | 36 |
 | Bill To Make Arrangements For Management Regarding | [link](https://lawcommission.gov.np/content/13494/bill-to-make-arrangements-for-management-regarding) | in_force | 27 |
@@ -185,7 +173,7 @@
 | Cooperative Regulation 2075 | [link](https://lawcommission.gov.np/content/13046/13046-cooperative-regulation-2075) | in_force | 200 |
 | Cooperative Rules 2089 | [link](https://lawcommission.gov.np/content/13347/cooperative-rules--2089) | in_force | 72 |
 | Cooperatives Act 2017 | [link](https://lawcommission.gov.np/content/12756/12756-cooperatives-act-2017) | in_force | 169 |
-| Cooperatives Related Some Nepal Acts Amendment Ordinance 208 | [link](https://lawcommission.gov.np/content/13500/cooperatives-related-some-nepal-acts-amendment-ordinance-2081) | in_force | 23 |
+| Cooperatives Related Some Nepal Acts Amendment Ordinance 2081 | [link](https://lawcommission.gov.np/content/13500/cooperatives-related-some-nepal-acts-amendment-ordinance-2081) | in_force | 23 |
 | Copyright Regulation 2061 | [link](https://lawcommission.gov.np/content/12688/12688-copyright-regulation-2061) | in_force | 7 |
 | Crafts Kasur Carry Katta Rules 206 | [link](https://lawcommission.gov.np/content/13473/crafts-kasur--carry-katta--rules--206) | in_force | 22 |
 | Credit Protection Regulations | [link](https://lawcommission.gov.np/content/12470/12470-credit-protection-regulations) | in_force | 65 |
@@ -403,7 +391,7 @@
 | Lands Act 1964 | [link](https://lawcommission.gov.np/content/12780/12780-lands-act-1964) | in_force | 111 |
 | Language Commission Act 2074 | [link](https://lawcommission.gov.np/content/12932/12932-language-commission-act-2074) | in_force | 25 |
 | Law Drafting Manual | [link](https://lawcommission.gov.np/content/13515/law-drafting-manual) | in_force | 232 |
-| Law Enacted By Jayasthiti Mall | [link](https://lawcommission.gov.np/content/11196/11196-law-enacted-by-jayasthiti-mall) | in_force | 2435 |
+| Law Enacted By Jayasthiti Mall | [link](https://lawcommission.gov.np/content/11196/11196-law-enacted-by-jayasthiti-mall) | in_force | 2,435 |
 | Leasehold Act1964 | [link](https://lawcommission.gov.np/content/12779/12779-leasehold-act1964) | in_force | 25 |
 | Legal Aid Regulations 2055 | [link](https://lawcommission.gov.np/content/12476/12476-legal-aid-regulations-2055) | in_force | 16 |
 | Legal Assistance Act 2054 | [link](https://lawcommission.gov.np/content/13366/legal-assistance-act--2054) | in_force | 30 |
@@ -417,9 +405,9 @@
 | Local Development Training Aca | [link](https://lawcommission.gov.np/content/12742/12742-local-development-training-aca) | in_force | 26 |
 | Local Government Regulation Ac | [link](https://lawcommission.gov.np/content/12760/12760-local-government-regulation-ac) | in_force | 105 |
 | Local Infrastructure Developme | [link](https://lawcommission.gov.np/content/13084/13084-local-infrastructure-developme) | in_force | 7 |
-| Local Infrastructure Development Program Cering Activity Reg | [link](https://lawcommission.gov.np/content/13354/local-infrastructure-development-program--cering-activity--regulations-) | in_force | 20 |
-| Local Infrastructure Partnership Program Conducting Procedur | [link](https://lawcommission.gov.np/content/13355/local-infrastructure-partnership-program--conducting-procedures--drotions-) | in_force | 21 |
-| Local Pricemason Act 2055 | [link](https://lawcommission.gov.np/content/13466/local-pricemason-act--2055) | in_force | 1522 |
+| Local Infrastructure Development Program Cering Activity Regulations | [link](https://lawcommission.gov.np/content/13354/local-infrastructure-development-program--cering-activity--regulations-) | in_force | 20 |
+| Local Infrastructure Partnership Program Conducting Procedures Drotions | [link](https://lawcommission.gov.np/content/13355/local-infrastructure-partnership-program--conducting-procedures--drotions-) | in_force | 21 |
+| Local Pricemason Act 2055 | [link](https://lawcommission.gov.np/content/13466/local-pricemason-act--2055) | in_force | 1,522 |
 | Lottery Act 2025 | [link](https://lawcommission.gov.np/content/12243/12243-lottery-act-2025) | in_force | 17 |
 | Lottery Regulation 2027 | [link](https://lawcommission.gov.np/content/12603/12603-lottery-regulation-2027) | in_force | 8 |
 | Lumbini Bouddha University Act | [link](https://lawcommission.gov.np/content/12586/12586-lumbini-bouddha-university-act) | in_force | 47 |
@@ -495,7 +483,7 @@
 | National News Committee Regula | [link](https://lawcommission.gov.np/content/12854/12854-national-news-committee-regula) | in_force | 40 |
 | National Parks And Wildlife Co | [link](https://lawcommission.gov.np/content/12840/12840-national-parks-and-wildlife-co) | in_force | 97 |
 | National Parks And Wildlife Co | [link](https://lawcommission.gov.np/content/12553/12553-national-parks-and-wildlife-co) | in_force | 26 |
-| National Prevention Initial Inland Development Committee For | [link](https://lawcommission.gov.np/content/13523/national-prevention-initial-inland-development-committee--formation-) | in_force | 26 |
+| National Prevention Initial Inland Development Committee Formation | [link](https://lawcommission.gov.np/content/13523/national-prevention-initial-inland-development-committee--formation-) | in_force | 26 |
 | National Sports Development Ac | [link](https://lawcommission.gov.np/content/12710/12710-national-sports-development-ac) | in_force | 56 |
 | National Sports Development Rules 2079 | [link](https://lawcommission.gov.np/content/13490/national-sports-development-rules--2079) | in_force | 43 |
 | National Tea And Coffee Develo | [link](https://lawcommission.gov.np/content/12740/12740-national-tea-and-coffee-develo) | in_force | 21 |
@@ -572,7 +560,7 @@
 | Remuneration Facilities And Conditions Of Judges Of | [link](https://lawcommission.gov.np/content/13379/remuneration--facilities--and-conditions-of-judges-of) | in_force | 40 |
 | Remuneration Services Of The Mahanyamanka Return Of | [link](https://lawcommission.gov.np/content/13365/remuneration--services-of-the-mahanyamanka--return-of) | in_force | 31 |
 | Repeal Of Court Penalty Recove | [link](https://lawcommission.gov.np/content/12430/12430-repeal-of-court-penalty-recove) | in_force | 3 |
-| Representative Member Rules 2079 | [link](https://lawcommission.gov.np/content/13496/representative-member-rules--2079) | in_force | 1054 |
+| Representative Member Rules 2079 | [link](https://lawcommission.gov.np/content/13496/representative-member-rules--2079) | in_force | 1,054 |
 | Requests Of People Who Went Missing The | [link](https://lawcommission.gov.np/content/13374/requests-of-people-who-went-missing--the) | in_force | 47 |
 | Rescue And Assistance Fund Ope | [link](https://lawcommission.gov.np/content/12625/12625-rescue-and-assistance-fund-ope) | in_force | 15 |
 | Restriction Act 2021 | [link](https://lawcommission.gov.np/content/13402/restriction-act--2021) | in_force | 6 |
@@ -631,7 +619,7 @@
 | Special Economic Zone Act 207 | [link](https://lawcommission.gov.np/content/12164/12164-special-economic-zone-act-207) | in_force | 60 |
 | Special Economic Zone Regulati | [link](https://lawcommission.gov.np/content/12962/12962-special-economic-zone-regulati) | in_force | 72 |
 | Special Group Employee Adminis | [link](https://lawcommission.gov.np/content/12963/12963-special-group-employee-adminis) | in_force | 124 |
-| Specific Structure Correction And Management Development Com | [link](https://lawcommission.gov.np/content/13497/specific-structure-correction-and-management-development-committee) | in_force | 11 |
+| Specific Structure Correction And Management Development Committee | [link](https://lawcommission.gov.np/content/13497/specific-structure-correction-and-management-development-committee) | in_force | 11 |
 | Sports Development Act 2048 | [link](https://lawcommission.gov.np/content/13462/sports-development-act--2048) | in_force | 36 |
 | Stadium Restoration Rules 2 | [link](https://lawcommission.gov.np/content/12822/12822-stadium-restoration-rules-2) | in_force | 13 |
 | Staff Adjustment Regulations | [link](https://lawcommission.gov.np/content/12471/12471-staff-adjustment-regulations) | in_force | 13 |
@@ -736,340 +724,492 @@
 | Youth And Small Business Self | [link](https://lawcommission.gov.np/content/12818/12818-youth-and-small-business-self) | in_force | 39 |
 | Youth And Smaller Adversity Self Employment Fund Spening | [link](https://lawcommission.gov.np/content/13333/youth-and-smaller-adversity-self-employment-fund--spening-) | in_force | 33 |
 
-## Excluded Laws (333)
+## Not Ingested (485)
 
-| Title | Classification |
-|-------|---------------|
-| अख्तियार दुरुपयोग अनुसन्धान आयोग ऐन, २०४८ | excluded |
-| अध्यागमन ऐन, २०४९ | excluded |
-| अनिवार्य तथा निःशुल्क शिक्षा सम्बन्धी ऐन, २०७५ | excluded |
-| अनुगमन तथा मूल्याङ्कन ऐन, २०८० | excluded |
-| अन्तः शुल्क ऐन, २०५८ | excluded |
-| अन्तर-सरकारी वित्त व्यवस्थापन ऐन, २०७४ | excluded |
-| अन्तर्राष्ट्रिय एकीकृत पर्वतीय विकास केन्द्र ऐन, २०४० | excluded |
-| अन्तर्राष्ट्रिय विकास एशोसिएसनको सदस्यता प्राप्त गर्ने ऐन, २०१९ | excluded |
-| अन्तर्राष्ट्रिय वित्तीय कारोबार ऐन, २०५४ | excluded |
-| अपराध पीडित संरक्षण ऐन, २०७५ | excluded |
-| अपाङ्गता भएका व्यक्तिको अधिकार सम्बन्धी ऐन, २०७४ | excluded |
-| अभिलेख संरक्षण ऐन, २०४६ | excluded |
-| आदिवासी जनजाति आयोग ऐन, २०७४ | excluded |
-| आदिवासी/जनजाति उत्थान राष्ट्रिय प्रतिष्ठान ऐन, २०५८ | excluded |
-| आन्तरिक हुलाक वस्तु (बीमा गर्ने) ऐन, २०१९ | excluded |
-| आमाको दूधलाई प्रतिस्थापन गर्ने वस्तु (बिक्री वितरण नियन्त्रण) ऐन, २०४९ | excluded |
-| आय टिकट दस्तुर ऐन, २०१९ | excluded |
-| आयकर ऐन, २०५८ | excluded |
-| आयुर्वेद चिकित्सा परिषद् ऐन, २०४५ | excluded |
-| आयोडिनयुक्त नून (उत्पादन तथा बिक्री वितरण) ऐन, २०५५ | excluded |
-| आर्थिक कार्यविधि तथा वित्तीय उत्तरदायित्व ऐन, २०७६ | excluded |
-| आवश्यक पदार्थ (नियन्त्रण) अधिकार ऐन, २०१७ | excluded |
-| आवश्यक वस्तु संरक्षण ऐन, २०१२ | excluded |
-| आवश्यक सेवा सञ्चालन ऐन, २०१४ | excluded |
-| आवासको अधिकार सम्बन्धी ऐन, २०७५ | excluded |
-| उखडा सम्बन्धी ऐन, २०२१ | excluded |
-| उच्च अदालत तथा जिल्ला अदालतका न्यायाधीशहरुको पारिश्रमिक, सुविधा र सेवाका अन्य शर | excluded |
-| उपभोक्ता संरक्षण ऐन, २०७५ | excluded |
-| औद्योगिक व्यवसाय ऐन, २०७६ | excluded |
-| औद्योगिक व्यवसाय विकास प्रतिष्ठान ऐन, २०५३ | excluded |
-| औषधि ऐन, २०३५ | excluded |
-| कमैया श्रम (निषेध गर्ने) सम्बन्धी ऐन, २०५८ | excluded |
-| कम्पनी ऐन, २०६३ | excluded |
-| कर्णाली स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०६८ | excluded |
-| कर्मचारी सञ्चय कोष ऐन, २०१९ | excluded |
-| कर्मचारी समायोजन ऐन, २०७५ | excluded |
-| कसूरजन्य सम्पत्ति तथा साधन (रोक्का, नियन्त्रण र जफत) ऐन, २०७० | excluded |
-| काठमाडौं उपत्यका विकास प्राधिकरण ऐन, २०४५ | excluded |
-| काठमाडौं विश्वविद्यालय ऐन, २०४८ | excluded |
-| कानूनी सहायता सम्बन्धी ऐन, २०५४ | excluded |
-| कारागार ऐन, २०७९ | excluded |
-| कार्य सञ्चालन कोष ऐन, २०४३ | excluded |
-| कार्यस्थलमा हुने यौनजन्य दुर्व्यवहार (निवारण) ऐन, २०७१ | excluded |
-| केही सार्वजनिक लिखत प्रमाणीकरण (कार्यविधि) ऐन, २०६३ | excluded |
-| क्षतिपूर्ति ऐन, २०१९ | excluded |
-| खर्क जग्गा राष्ट्रियकरण ऐन, २०३१ | excluded |
-| खाद्य अधिकार तथा खाद्य सम्प्रभूता सम्बन्धी ऐन, २०७५ | excluded |
-| खाद्य स्वच्छता तथा गुणस्तर ऐन, २०८१ | excluded |
-| खानी तथा खनिज पदार्थ ऐन, २०४२ | excluded |
-| खानेपानी तथा सरसफाई ऐन, २०७९ | excluded |
-| खानेपानी व्यवस्थापन बोर्ड ऐन, २०६३ | excluded |
-| खोप ऐन, २०७२ | excluded |
-| गरिबी निवारण कोष ऐन, २०६३ | excluded |
-| गुठी संस्थान ऐन, २०३३ | excluded |
-| गैर आवासीय नेपाली सम्बन्धी ऐन, २०६४ | excluded |
-| गैर सैनिक हवाई उडान (सिभिल एभिएसन) ऐन, २०१५ | excluded |
-| गोरखापत्र संस्थान ऐन, २०१९ | excluded |
-| घरेलु हिंसा (कसूर र सजाय) ऐन, २०६६ | excluded |
-| चन्दा ऐन, २०३० | excluded |
-| चलचित्र (निर्माण, प्रदर्शन तथा वितरण) ऐन, २०२६ | excluded |
-| चिठ्ठा ऐन, २०२५ | excluded |
-| छात्रवृत्ति सम्बन्धी ऐन, २०२१ | excluded |
-| छापाखाना र प्रकाशन सम्बन्धी ऐन, २०४८ | excluded |
-| जग्गा (नाप जाँच) ऐन, २०१९ | excluded |
-| जग्गा प्राप्ति ऐन, २०३४ | excluded |
-| जनस्वास्थ्य सेवा ऐन, २०७५ | excluded |
-| जलचर संरक्षण ऐन, २०१७ | excluded |
-| जलस्रोत ऐन, २०४९ | excluded |
-| जाँचबुझ आयोग ऐन, २०२६ | excluded |
-| जातीय तथा अन्य सामाजिक छुवाछूत र भेदभाव (कसूर र सजाय) ऐन, २०६८ | excluded |
-| जीवनाशक विषादी व्यवस्थापन ऐन, २०७६ | excluded |
-| जेष्ठ नागरिक सम्बन्धी ऐन, २०६३ | excluded |
-| झोरा क्षेत्रको जग्गा सम्बन्धी ऐन, २०२८ | excluded |
-| ट्रेड यूनियन ऐन, २०४९ | excluded |
-| तथ्याङ्क ऐन, २०७९ | excluded |
-| तेजाब तथा अन्य घातक रासायनिक पदार्थ (नियमन) ऐन, २०७९ | excluded |
-| त्रिभुवन विश्वविद्यालय ऐन, २०४९ | excluded |
-| थारु आयोग ऐन, २०७४ | excluded |
-| दाना पदार्थ ऐन, २०३३ | excluded |
-| दूर सञ्चार ऐन, २०५३ | excluded |
-| धितोपत्र सम्बन्धी ऐन, २०६३ | excluded |
-| नगर विकास ऐन, २०४५ | excluded |
-| नगर विकास कोष ऐन, २०५३ | excluded |
-| नागरिक लगानी कोष ऐन, २०४७ | excluded |
-| निकासी पैठारी (नियन्त्रण) ऐन, २०१३ | excluded |
-| निक्षेप तथा कर्जा सुरक्षण कोष ऐन, २०७३ | excluded |
-| निजामती सेवा ऐन, २०४९ | excluded |
-| निजी वन जंगल राष्ट्रियकरण ऐन, २०१३ | excluded |
-| निजीकरण ऐन, २०५० | excluded |
-| निर्माण व्यवसाय ऐन, २०५५ | excluded |
-| निर्वाचन (कसूर र सजाय) ऐन, २०७३ | excluded |
-| निर्वाचन आयोग ऐन, २०७३ | excluded |
-| निर्वाचन क्षेत्र निर्धारण ऐन, २०७३ | excluded |
-| निवृत्तभरण कोष ऐन, २०७५ | excluded |
-| नेपाल इन्जिनियरिङ परिषद् ऐन, २०५५ | excluded |
-| नेपाल एजेन्सी ऐन, २०१४ | excluded |
-| नेपाल कानून आयोग ऐन, २०६३ | excluded |
-| नेपाल कानून व्यवसायी परिषद् ऐन, २०५० | excluded |
-| नेपाल कानून व्याख्या सम्बन्धी ऐन, २०१० | excluded |
-| नेपाल कृषि अनुसन्धान परिषद् ऐन, २०४८ | excluded |
-| नेपाल खानेपानी संस्थान ऐन, २०४६ | excluded |
-| नेपाल खुला विश्वविद्यालय ऐन, २०७३ | excluded |
-| नेपाल चार्टर्ड एकाउन्टेन्टस ऐन, २०५३ | excluded |
-| नेपाल ट्रष्ट ऐन, २०६४ | excluded |
-| नेपाल नर्सिङ परिषद् ऐन, २०५२ | excluded |
-| नेपाल नागरिक उड्डयन प्राधिकरण ऐन, २०५३ | excluded |
-| नेपाल नागरिकता ऐन, २०६३ | excluded |
-| नेपाल पर्यटन बोर्ड ऐन, २०५३ | excluded |
-| नेपाल पशु चिकित्सा परिषद् ऐन, २०५५ | excluded |
-| नेपाल पानी जहाज (प्रमाणपत्र र रोजनामचा) ऐन, २०२७ | excluded |
-| नेपाल पेट्रोलियम ऐन, २०४० | excluded |
-| नेपाल प्रज्ञा प्रतिष्ठान ऐन, २०६४ | excluded |
-| नेपाल प्रशासनिक प्रशिक्षण प्रतिष्ठान ऐन, २०३९ | excluded |
-| नेपाल प्रहरी र प्रदेश प्रहरी (कार्य सञ्चालन, सुपरीवेक्षण र समन्वय) ऐन, २०७६ | excluded |
-| नेपाल मेडिकल काउन्सिल ऐन, २०२० | excluded |
-| नेपाल राष्ट्र बैङ्क ऐन, २०५८ | excluded |
-| नेपाल रेल्वे ऐन, २०७९ | excluded |
-| नेपाल ललितकला प्रज्ञा प्रतिष्ठान ऐन, २०६४ | excluded |
-| नेपाल वायुसेवा निगम ऐन, २०१९ | excluded |
-| नेपाल विज्ञान तथा प्रविधि प्रज्ञा प्रतिष्ठान ऐन, २०४८ | excluded |
-| नेपाल विद्युत प्राधिकरण ऐन, २०४१ | excluded |
-| नेपाल विशेष सेवा ऐन, २०४२ | excluded |
-| नेपाल संस्कृत विश्वविद्यालय ऐन, २०४३ | excluded |
-| नेपाल सङ्गित तथा नाट्य प्रज्ञा प्रतिष्ठान ऐन, २०६४ | excluded |
-| नेपाल सन्धि ऐन, २०४७ | excluded |
-| नेपाल स्काउट ऐन, २०५० | excluded |
-| नेपाल स्वास्थ्य अनुसन्धान परिषद् ऐन, २०४७ | excluded |
-| नेपाल स्वास्थ्य व्यवसायी परिषद् ऐन, २०५३ | excluded |
-| नेपाल स्वास्थ्य सेवा ऐन, २०५३ | excluded |
-| नेपालको व्यापारिक पानी जहाजको झण्डा सम्बन्धी ऐन, २०२७ | excluded |
-| नेपाली भाषा प्रकाशन संस्थान ऐन, २०२१ | excluded |
-| नेपाली मुद्राको चलन चल्ती बढाउने ऐन, २०१४ | excluded |
-| नोटरी पब्लिक सम्बन्धी ऐन, २०६३ | excluded |
-| न्याय परिषद् ऐन, २०७३ | excluded |
-| न्याय प्रशासन ऐन, २०७३ | excluded |
-| न्याय सेवा आयोग ऐन, २०७३ | excluded |
-| न्यायिक कोष ऐन, २०४३ | excluded |
-| पर्यटन ऐन, २०३५ | excluded |
-| पशु बधशाला र मासु जाँच ऐन, २०५५ | excluded |
-| पशु स्वास्थ्य तथा पशु सेवा ऐन, २०५५ | excluded |
-| पशु स्वास्थ्य तथा पशु सेवा व्यवसाय परिषद् ऐन, २०७९ | excluded |
-| पशुपति क्षेत्र विकास कोष ऐन, २०४४ | excluded |
-| पाटन स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०६४ | excluded |
-| पानी कर ऐन, २०२३ | excluded |
-| पानी जहाज दर्ता ऐन, २०२७ | excluded |
-| पारस्परिक कानूनी सहायता ऐन, २०७० | excluded |
-| पूर्वाञ्चल विश्वविद्यालय ऐन, २०५० | excluded |
-| पेटेण्ट, डिजायन र ट्रेडमार्क ऐन, २०२२ | excluded |
-| पोखरा विश्वविद्यालय ऐन, २०५३ | excluded |
-| पोखरा स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०७२ | excluded |
-| प्रतिनिधि सभा सदस्य निर्वाचन ऐन, २०७४ | excluded |
-| प्रतिलिपि अधिकार ऐन, २०५९ | excluded |
-| प्रतिस्पर्धा प्रवर्द्धन तथा बजार संरक्षण ऐन, २०६३ | excluded |
-| प्रत्यायन ऐन, २०७९ | excluded |
-| प्रदेश प्रमुखको पारिश्रमिक तथा सुविधा सम्बन्धी ऐन, २०७४ | excluded |
-| प्रदेश लोक सेवा आयोग (आधार र मापदण्ड) निर्धारण ऐन, २०७५ | excluded |
-| प्रदेश सभा सदस्य निर्वाचन ऐन, २०७४ | excluded |
-| प्रधान न्यायाधीश तथा सर्वोच्च अदालतका न्यायाधीशको पारिश्रमिक, सविधा र सेवाका अन् | excluded |
-| प्रमाण ऐन, २०३१ | excluded |
-| प्रशासकीय अदालत ऐन, २०७६ | excluded |
-| प्रशासकीय कार्यविधि (नियमित गर्ने) ऐन, २०१३ | excluded |
-| प्रहरी ऐन, २०१२ | excluded |
-| प्रहरी कर्मचारी समायोजन ऐन, २०७६ | excluded |
-| प्राइभेट फर्म रजिष्ट्रेशन ऐन, २०१४ | excluded |
-| प्राचीन स्मारक संरक्षण ऐन, २०१३ | excluded |
-| प्रादेशिक विकास योजनाहरु (कार्यान्वित गर्ने) ऐन, २०१३ | excluded |
-| प्राविधिक शिक्षा तथा व्यावसायिक तालिम परिषद् ऐन, २०४५ | excluded |
-| प्रेस काउन्सिल ऐन, २०४८ | excluded |
-| फोहोर मैला व्यवस्थापन ऐन, २०६८ | excluded |
-| फौजदारी कसूर (सजाय निर्धारण तथा कार्यान्वयन) ऐन, २०७४ | excluded |
-| बाल श्रम (निषेध र नियमित गर्ने) ऐन, २०५६ | excluded |
-| बालबालिका सम्बन्धी ऐन, २०७५ | excluded |
-| बिफर नियन्त्रण ऐन, २०२० | excluded |
-| बिरुवा संरक्षण ऐन, २०६४ | excluded |
-| बिर्ता उन्मूलन ऐन, २०१६ | excluded |
-| बिर्तावालले बिर्तामा रकम (भट्टी चर्सा आदि) लगाई लिन खान नपाउने ऐन, २०१५ | excluded |
-| बीउ बिजन ऐन, २०४५ | excluded |
-| बीमा ऐन, २०७९ | excluded |
-| बृहत्तर जनकपुर क्षेत्र विकास परिषद् ऐन, २०५५ | excluded |
-| बेपत्ता पारिएका व्यक्तिको छानविन, सत्य निरुपण तथा मेलमिलाप आयोग ऐन, २०७१ | excluded |
-| बैङ्क तथा वित्तीय संस्था सम्बन्धी ऐन, २०७३ | excluded |
-| बैङ्क तथा वित्तीय संस्थाको ऋण असुली ऐन, २०५८ | excluded |
-| बैङ्किङ्ग कसूर तथा सजाय ऐन, २०६४ | excluded |
-| बोक्सीको आरोप (कसूर र सजाय) ऐन, २०७२ | excluded |
-| बोनस ऐन, २०३० | excluded |
-| ब्रेटन उड्स सम्झौता ऐन, २०१८ | excluded |
-| भन्सार ऐन, २०६४ | excluded |
-| भवन ऐन, २०५५ | excluded |
-| भाषा आयोग ऐन, २०७४ | excluded |
-| भुक्तानी तथा फर्स्यौट ऐन, २०७५ | excluded |
-| भू तथा जलाधार संरक्षण ऐन, २०३९ | excluded |
-| भू-उपयोग ऐन, २०७६ | excluded |
-| भूकम्पबाट प्रभावित संरचनाको पुनर्निमाण सम्बन्धी ऐन, २०७२ | excluded |
-| भूमि सम्बन्धी ऐन, २०२१ | excluded |
-| भ्रष्टाचार निवारण ऐन, २०५९ | excluded |
-| मतदाता नामावली सम्बन्धी ऐन, २०७३ | excluded |
-| मदन भण्डारी विज्ञान तथा प्रविधि विश्वविद्यालय ऐन, २०७९ | excluded |
-| मदिरा ऐन, २०३१ | excluded |
-| मधेसी अयोग ऐन, २०७४ | excluded |
-| मध्यपश्चिम विश्वविद्यालय ऐन, २०६७ | excluded |
-| मध्यस्थता ऐन, २०५५ | excluded |
-| मन्त्रीहरुको पारिश्रमिक र सुविधा सम्बन्धी ऐन, २०४९ | excluded |
-| महान्यायाधिवक्ताको पारिश्रमिक, सेवाको शर्त र सुविधा सम्बन्धी ऐन, २०५२ | excluded |
-| महाभियोग (कार्यविधि नियमित गर्ने) ऐन, २०५९ | excluded |
-| मानव बेचबिखन तथा ओसार पसार (नियन्त्रण) ऐन, २०६४ | excluded |
-| मालपोत ऐन, २०३४ | excluded |
-| मालसामानको बहुविधिक ढुवानी ऐन, २०६३ | excluded |
-| मुस्लिम आयोग ऐन, २०७४ | excluded |
-| मूल्य अभिवृद्धि कर ऐन, २०५२ | excluded |
-| मेलमिलाप सम्बन्धी ऐन, २०६८ | excluded |
-| यातना सम्बन्धी क्षतिपूर्ति ऐन, २०५३ | excluded |
-| योगदानमा आधारित सामाजिक सुरक्षा ऐन, २०७४ | excluded |
-| योगमाया आयुर्वेद विश्वविद्यालय ऐन, २०७९ | excluded |
-| राजनीतिक दल सम्बन्धी ऐन, २०७३ | excluded |
-| राजर्षिजनक विश्वविद्यालय ऐन, २०७४ | excluded |
-| राजश्व चुहावट (अनुसन्धान तथा नियन्त्रण) ऐन, २०५२ | excluded |
-| राजश्व न्यायाधिकरण ऐन, २०३१ | excluded |
-| राज्य अदालत उन्मूलन ऐन, २०१७ | excluded |
-| राज्य रजौटा ऐन, २०१७ | excluded |
-| राप्ती स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०७४ | excluded |
-| राप्तीदून विकास क्षेत्रको जमीनको (बिक्री वितरण) व्यवस्था ऐन, २०२४ | excluded |
-| राष्ट्रपति तथा उपराष्ट्रपतिको निर्वाचन सम्बन्धी ऐन, २०७४ | excluded |
-| राष्ट्रपति तथा उपराष्ट्रपतिको पारिश्रमिक तथा सुविधा सम्बन्धी ऐन, २०७४ | excluded |
-| राष्ट्रिय खेलकुद विकास ऐन, २०७७ | excluded |
-| राष्ट्रिय चिकित्सा शिक्षा ऐन, २०७५ | excluded |
-| राष्ट्रिय चिया तथा कफी विकास बोर्ड ऐन, २०४९ | excluded |
-| राष्ट्रिय दलित आयोग ऐन, २०७४ | excluded |
-| राष्ट्रिय दुग्ध विकास बोर्ड ऐन, २०४८ | excluded |
-| राष्ट्रिय निर्देशन ऐन, २०१८ | excluded |
-| राष्ट्रिय न्यायिक प्रतिष्ठान ऐन, २०६३ | excluded |
-| राष्ट्रिय परिचयपत्र तथा पञ्जिकरण ऐन, २०७६ | excluded |
-| राष्ट्रिय प्रकृति संरक्षण कोष ऐन, २०३९ | excluded |
-| राष्ट्रिय प्रसारण ऐन, २०४९ | excluded |
-| राष्ट्रिय प्राकृतिक स्रोत तथा वित्त आयोग ऐन, २०७४ | excluded |
-| राष्ट्रिय महिला आयोग ऐन, २०७४ | excluded |
-| राष्ट्रिय मानव अधिकार आयोग ऐन, २०६८ | excluded |
-| राष्ट्रिय युवा परिषद् ऐन, २०७२ | excluded |
-| राष्ट्रिय सभा सदस्य निर्वाचन ऐन, २०७५ | excluded |
-| राष्ट्रिय समाचार समिति ऐन, २०१९ | excluded |
-| राष्ट्रिय समावेशी आयोग ऐन, २०७४ | excluded |
-| राष्ट्रिय सहकारी विकास बोर्ड ऐन, २०४९ | excluded |
-| राष्ट्रिय सेवा दल ऐन, २०२७ | excluded |
-| राहदानी ऐन, २०७६ | excluded |
-| रेडियो ऐन, २०१४ | excluded |
-| रेडियोधर्मी पदार्थ (उपयोग तथा नियमन) ऐन, २०७७ | excluded |
-| रोजगारीको हक सम्बन्धी ऐन, २०७५ | excluded |
-| लागू औषध (नियन्त्रण) ऐन, २०३३ | excluded |
-| लिखतहरुको गोप्यता सम्बन्धी ऐन, २०३९ | excluded |
-| लुम्बिनी बौद्ध विश्वविद्यालय ऐन, २०६३ | excluded |
-| लुम्बिनी विकास कोष ऐन, २०४२ | excluded |
-| लेखापरीक्षण ऐन, २०७५ | excluded |
-| लोक सेवा आयोग ऐन, २०७९ | excluded |
-| वन ऐन, २०७६ | excluded |
-| वस्तु विनिमय बजार सम्बन्धी ऐन, २०७४ | excluded |
-| वस्तुको प्रत्यक्ष बिक्री (व्यवस्थापन तथा नियमन गर्ने) ऐन, २०७४ | excluded |
-| वातावरण संरक्षण ऐन, २०७६ | excluded |
-| विकास समिति ऐन, २०१३ | excluded |
-| वित्तीय मध्यस्थताको काम गर्ने संस्था सम्बन्धी ऐन, २०५५ | excluded |
-| विदेशमा लगानी गर्न प्रतिबन्ध लगाउने ऐन, २०२१ | excluded |
-| विदेशी राज्य र कूटनैतिक प्रतिनिधिको सुविधा तथा उन्मुक्ति ऐन, २०२७ | excluded |
-| विदेशी लगानी तथा प्रविधि हस्तान्तरण ऐन, २०७५ | excluded |
-| विदेशी विनिमय (नियमित गर्ने) ऐन, २०१९ | excluded |
-| विद्युत ऐन, २०४९ | excluded |
-| विद्युत चोरी नियन्त्रण ऐन, २०५८ | excluded |
-| विद्युत नियमन आयोग ऐन, २०७४ | excluded |
-| विद्युतीय (इलेक्ट्रोनिक) कारोबार सम्बन्धी ऐन, २०६३ | excluded |
-| विनिमेय अधिकारपत्र ऐन, २०३४ | excluded |
-| विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन ऐन, २०७४ | excluded |
-| विभूषण ऐन, २०६४ | excluded |
-| विशेष अदालत ऐन, २०५९ | excluded |
-| विशेष आर्थिक क्षेत्र ऐन, २०७३ | excluded |
-| विश्वविद्यालय अनुदान आयोग ऐन, २०५० | excluded |
-| विस्फोटक पदार्थ ऐन, २०१८ | excluded |
-| वी.पी. कोईराला मेमोरियल क्यान्सर अस्पताल ऐन, २०५३ | excluded |
-| वी.पी. कोईराला स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०४९ | excluded |
-| वैदेशिक रोजगार ऐन, २०६४ | excluded |
-| वैयक्तिक गोपनियता सम्बन्धी ऐन, २०७५ | excluded |
-| शपथ सम्बन्धी ऐन, २०७९ | excluded |
-| शहरी क्षेत्र सार्वजनिक यातायात (व्यवस्थापन) प्राधिकरण ऐन, २०७९ | excluded |
-| शहीद गंगालाल राष्ट्रिय हृदय केन्द्र ऐन, २०५७ | excluded |
-| शिक्षा ऐन, २०२८ | excluded |
-| श्रम ऐन, २०७४ | excluded |
-| श्रमजीवी पत्रकार सम्बन्धी ऐन, २०५१ | excluded |
-| संक्रामक रोग ऐन, २०२० | excluded |
-| संक्षिप्त कार्यविधि ऐन, २०२८ | excluded |
-| संयुक्त आवासको स्वामित्व सम्बन्धी ऐन, २०५४ | excluded |
-| संवैधानिक निकायका पदाधिकारीहरुको पारिश्रमिक, सेवाको शर्त र सुविधा सम्बन्धी ऐन, २ | excluded |
-| संवैधानिक परिषद् (काम, कर्तव्य, अधिकार र कार्यविधि) सम्बन्धी ऐन, २०६६ | excluded |
-| संस्था दर्ता ऐन, २०३४ | excluded |
-| संस्थान ऐन, २०२१ | excluded |
-| सङ्कटापन्न वन्यजन्तु तथा वनस्पतिको अन्तर्राष्ट्रिय व्यापार नियन्त्रण ऐन, २०७३ | excluded |
-| सङ्गठित अपराध निवारण ऐन, २०७० | excluded |
-| सङ्घ, प्रदेश र स्थानीय तह (समन्वय तथा अन्तरसम्बन्ध) ऐन, २०७७ | excluded |
-| सङ्घीय आकस्मिक कोष ऐन, २०७४ | excluded |
-| सङ्घीय संसद सचिवालय सम्बन्धी ऐन, २०६४ | excluded |
-| सङ्घीय संसदका पदाधिकारी तथा सदस्यहरुको पारिश्रमिक र सुविधा सम्बन्धी ऐन, २०७३ | excluded |
-| सङ्घीय संसदका महासचिव, प्रतिनिधिसभाका सचिव तथा राष्ट्रिय सभाका सचिवको पारिश्रमिक | excluded |
-| सञ्चार संस्थान ऐन, २०२८ | excluded |
-| सडक बोर्ड ऐन, २०५८ | excluded |
-| सपुर्दगी ऐन, २०७० | excluded |
-| समाज कल्याण ऐन, २०४९ | excluded |
-| सम्पत्ति शुद्धिकरण (मनि लाउन्डरिङ) निवारण ऐन, २०६४ | excluded |
-| सर्वोच्च अदालत ऐन, २०४८ | excluded |
-| सवारी तथा यातायात व्यवस्था ऐन, २०४९ | excluded |
-| सशस्त्र प्रहरी ऐन, २०५८ | excluded |
-| सहकारी ऐन, २०७४ | excluded |
-| साझेदारी ऐन, २०२० | excluded |
-| सामयिक कर असुल ऐन, २०१२ | excluded |
-| सामाजिक व्यवहार (सुधार) ऐन, २०३३ | excluded |
-| सामाजिक सुरक्षा ऐन, २०७५ | excluded |
-| सार्वजनिक ऋण व्यवस्थापन ऐन, २०७९ | excluded |
-| सार्वजनिक खरिद ऐन, २०६३ | excluded |
-| सार्वजनिक सडक ऐन, २०३१ | excluded |
-| सार्वजनिक सुरक्षा ऐन, २०४६ | excluded |
-| सार्वजनिक-निजी साझेदारी तथा लगानी ऐन, २०७५ | excluded |
-| सुदूरपश्चिम विश्वविद्यालय ऐन, २०६७ | excluded |
-| सुरक्षित कारोबार ऐन, २०६३ | excluded |
-| सुरक्षित मातृत्व तथा प्रजनन् स्वास्थ्य अधिकार ऐन, २०७५ | excluded |
-| सुशासन (व्यवस्थापन तथा सञ्चालन) ऐन, २०६४ | excluded |
-| सूचनाको हक सम्बन्धी ऐन, २०६४ | excluded |
-| सूर्तिजन्य पदार्थ (नियन्त्रण र नियमन गर्ने) ऐन, २०६८ | excluded |
-| सेफगार्ड्स, एन्टी-डम्पिङ्ग तथा काउण्टरभेलिङ्ग ऐन, २०७६ | excluded |
-| सैनिक ऐन, २०६३ | excluded |
-| स्टाण्डर्ड नाप र तौल ऐन, २०२५ | excluded |
-| स्थानीय तह निर्वाचन ऐन, २०७३ | excluded |
-| स्थानीय प्रशासन ऐन, २०२८ | excluded |
-| स्थानीय विकास प्रशिक्षण प्रतिष्ठान ऐन, २०४९ | excluded |
-| स्थानीय सरकार सञ्चालन ऐन, २०७४ | excluded |
-| स्वास्थ्य बीमा ऐन, २०७४ | excluded |
-| स्वास्थ्यकर्मी तथा स्वास्थ्य संस्थाको सुरक्षा सम्बन्धी ऐन, २०६६ | excluded |
-| हातहतियार खरखजाना ऐन, २०१९ | excluded |
-| हुलाक ऐन, २०१९ | excluded |
-| होटेल व्यवस्था तथा मदिराको बिक्री वितरण (नियन्त्रण) ऐन, २०२३ | excluded |
+| Title | Official URL | Reason |
+|-------|-------------|--------|
+| For National Unity | [link](https://lawcommission.gov.np/content/13467/for-national-unity) | ingestable |
+| Honanary Consal Regulations 2039 | [link](https://lawcommission.gov.np/content/13539/honanary-consal-regulations-2039) | ingestable |
+| Let S Celebrate The Constitution Day And National | [link](https://lawcommission.gov.np/content/13440/let-s-celebrate-the-constitution-day-and-national) | ingestable |
+| Madan Bhandari University Of S | [link](https://lawcommission.gov.np/content/12709/12709-madan-bhandari-university-of-s) | inaccessible |
+| National Vigilance Police Regu | [link](https://lawcommission.gov.np/content/12850/12850-national-vigilance-police-regu) | inaccessible |
+| National Women Commission Act | [link](https://lawcommission.gov.np/content/12883/12883-national-women-commission-act) | inaccessible |
+| National Youth Council Act 2 | [link](https://lawcommission.gov.np/content/12733/12733-national-youth-council-act-2) | inaccessible |
+| Negotiable Instruments Act 20 | [link](https://lawcommission.gov.np/content/12209/12209-negotiable-instruments-act-20) | inaccessible |
+| Nepal Academy Act 2007 | [link](https://lawcommission.gov.np/content/12924/12924-nepal-academy-act-2007) | inaccessible |
+| Nepal Administrative Service | [link](https://lawcommission.gov.np/content/12659/12659-nepal-administrative-service) | inaccessible |
+| Nepal Administrative Training | [link](https://lawcommission.gov.np/content/12250/12250-nepal-administrative-training) | inaccessible |
+| Nepal Agency Act 2014 | [link](https://lawcommission.gov.np/content/12138/12138-nepal-agency-act-2014) | inaccessible |
+| Nepal Agricultural Service Co | [link](https://lawcommission.gov.np/content/12653/12653-nepal-agricultural-service-co) | inaccessible |
+| Nepal Agriculture Research Cou | [link](https://lawcommission.gov.np/content/12734/12734-nepal-agriculture-research-cou) | inaccessible |
+| Nepal Air Resources Corporation Corporation Act 2019 | [link](https://lawcommission.gov.np/content/13296/nepal-air-resources-corporation-corporation-act--2019) | inaccessible |
+| Nepal Airline Corporation Fin | [link](https://lawcommission.gov.np/content/12664/12664-nepal-airline-corporation-fin) | inaccessible |
+| Nepal Army Accounting Group Formation Pokhetin And | [link](https://lawcommission.gov.np/content/13327/nepal-army--accounting-group--formation--pokhetin-and) | inaccessible |
+| Nepal Chartered Accountation Act 2053 | [link](https://lawcommission.gov.np/content/13409/nepal-chartered-accountation-act--2053) | inaccessible |
+| Nepal Citizenship Act 2063 | [link](https://lawcommission.gov.np/content/12939/12939-nepal-citizenship-act-2063) | inaccessible |
+| Nepal Citizenship First Amend | [link](https://lawcommission.gov.np/content/12384/12384-nepal-citizenship-first-amend) | inaccessible |
+| Nepal Education Service Const | [link](https://lawcommission.gov.np/content/12667/12667-nepal-education-service-const) | inaccessible |
+| Nepal Electricity Authority Ac | [link](https://lawcommission.gov.np/content/12561/12561-nepal-electricity-authority-ac) | inaccessible |
+| Nepal Engineering Service Formation Groups And Claps | [link](https://lawcommission.gov.np/content/12652/nepal-engineering-service--formation--groups-and-claps) | inaccessible |
+| Nepal Foreign Affair Regulatio | [link](https://lawcommission.gov.np/content/12658/12658-nepal-foreign-affair-regulatio) | inaccessible |
+| Nepal Forest Service Constitu | [link](https://lawcommission.gov.np/content/12661/12661-nepal-forest-service-constitu) | inaccessible |
+| Nepal Haje Committee Formation And Operation Order | [link](https://lawcommission.gov.np/content/13530/nepal-haje-committee--formation-and-operation--order-) | inaccessible |
+| Nepal Health Practitioner Coun | [link](https://lawcommission.gov.np/content/12670/12670-nepal-health-practitioner-coun) | inaccessible |
+| Nepal Health Research Council | [link](https://lawcommission.gov.np/content/12790/12790-nepal-health-research-council) | inaccessible |
+| Nepal Health Service Act 1997 | [link](https://lawcommission.gov.np/content/12837/12837-nepal-health-service-act-1997) | inaccessible |
+| Nepal Health Service Regulatio | [link](https://lawcommission.gov.np/content/12671/12671-nepal-health-service-regulatio) | inaccessible |
+| Nepal Judicial Service Consti | [link](https://lawcommission.gov.np/content/12657/12657-nepal-judicial-service-consti) | inaccessible |
+| Nepal Law Commission Act 2063 | [link](https://lawcommission.gov.np/content/13371/nepal-law-commission-act-2063) | inaccessible |
+| Nepal Law Law Explanation Act 2010 | [link](https://lawcommission.gov.np/content/13357/nepal-law-law-explanation-act--2010) | inaccessible |
+| Nepal Medical Council Act 196 | [link](https://lawcommission.gov.np/content/12783/12783-nepal-medical-council-act-196) | inaccessible |
+| Nepal Medical Council Regulati | [link](https://lawcommission.gov.np/content/12660/12660-nepal-medical-council-regulati) | inaccessible |
+| Nepal Military Pierne Grum Admission Rules 2020 | [link](https://lawcommission.gov.np/content/13328/nepal-military--pierne-grum--admission-rules--2020) | inaccessible |
+| Nepal Miscellaneous Services | [link](https://lawcommission.gov.np/content/12666/12666-nepal-miscellaneous-services) | inaccessible |
+| Nepal Music And Dance Academy | [link](https://lawcommission.gov.np/content/12923/12923-nepal-music-and-dance-academy) | inaccessible |
+| Nepal Nursing Council Act 205 | [link](https://lawcommission.gov.np/content/12828/12828-nepal-nursing-council-act-205) | inaccessible |
+| Nepal Open University Act 201 | [link](https://lawcommission.gov.np/content/12704/12704-nepal-open-university-act-201) | inaccessible |
+| Nepal Panchang Adjudicatory De | [link](https://lawcommission.gov.np/content/12400/12400-nepal-panchang-adjudicatory-de) | inaccessible |
+| Nepal Petroleum Act 2040 | [link](https://lawcommission.gov.np/content/12149/12149-nepal-petroleum-act-2040) | inaccessible |
+| Nepal Pharmacy Council Act 20 | [link](https://lawcommission.gov.np/content/12857/12857-nepal-pharmacy-council-act-20) | inaccessible |
+| Nepal Police And State Police Tasks Operating | [link](https://lawcommission.gov.np/content/13450/nepal-police-and-state-police--tasks-operating-) | inaccessible |
+| Nepal Railway Ann 2079 | [link](https://lawcommission.gov.np/content/13311/nepal-railway-ann--2079) | inaccessible |
+| Nepal Rastra Bank Act 2058 | [link](https://lawcommission.gov.np/content/12211/12211-nepal-rastra-bank-act-2058) | inaccessible |
+| Nepal S Arm Hospitable Legislation 2007 | [link](https://lawcommission.gov.np/content/13314/nepal-s-arm-hospitable-legislation--2007) | inaccessible |
+| Nepal S Constitution | [link](https://lawcommission.gov.np/content/13437/nepal-s-constitution) | inaccessible |
+| Nepal S Constitution 2019 | [link](https://lawcommission.gov.np/content/13316/nepal-s-constitution-2019) | inaccessible |
+| Nepal Sanskrit University Act | [link](https://lawcommission.gov.np/content/12560/12560-nepal-sanskrit-university-act) | inaccessible |
+| Nepal Sciences And Technology Sunsoluings Act 2048 | [link](https://lawcommission.gov.np/content/13393/nepal-sciences-and-technology-sunsoluings-act--2048) | inaccessible |
+| Nepal Scouts Act 1993 | [link](https://lawcommission.gov.np/content/12579/12579-nepal-scouts-act-1993) | inaccessible |
+| Nepal Special Service Act 2042 | [link](https://lawcommission.gov.np/content/13446/nepal-special-service-act-2042) | inaccessible |
+| Nepal Special Service Second Amendment Ordinance 2082 | [link](https://lawcommission.gov.np/content/13553/nepal-special-service--second-amendment--ordinance--2082) | inaccessible |
+| Nepal Standard Certification | [link](https://lawcommission.gov.np/content/12654/12654-nepal-standard-certification) | inaccessible |
+| Nepal Standard Certification | [link](https://lawcommission.gov.np/content/12147/12147-nepal-standard-certification) | inaccessible |
+| Nepal State Business Council Act 2050 | [link](https://lawcommission.gov.np/content/13364/nepal-state-business-council-act--2050) | inaccessible |
+| Nepal Tourism Board Act 2053 | [link](https://lawcommission.gov.np/content/13305/nepal-tourism-board-act--2053) | inaccessible |
+| Nepal Treaty Act 1990 | [link](https://lawcommission.gov.np/content/12566/12566-nepal-treaty-act-1990) | inaccessible |
+| Nepal Trust Act 2064 | [link](https://lawcommission.gov.np/content/13422/nepal-trust-act--2064) | inaccessible |
+| Nepal Trust Regulation 2065 | [link](https://lawcommission.gov.np/content/12655/12655-nepal-trust-regulation-2065) | inaccessible |
+| Nepal University Act 2081 | [link](https://lawcommission.gov.np/content/13485/nepal-university-act--2081) | inaccessible |
+| Nepal University Infrastructur | [link](https://lawcommission.gov.np/content/12401/12401-nepal-university-infrastructur) | inaccessible |
+| Nepal Veterinary Council Act | [link](https://lawcommission.gov.np/content/12746/12746-nepal-veterinary-council-act) | inaccessible |
+| Nepal Water Supply Corporation | [link](https://lawcommission.gov.np/content/12184/12184-nepal-water-supply-corporation) | inaccessible |
+| Nepalese Army Disposal Of Uncl | [link](https://lawcommission.gov.np/content/12675/12675-nepalese-army-disposal-of-uncl) | inaccessible |
+| Nepalese Army Short Service Re | [link](https://lawcommission.gov.np/content/12676/12676-nepalese-army-short-service-re) | inaccessible |
+| Nepalese Armys Disposal And D | [link](https://lawcommission.gov.np/content/12674/12674-nepalese-armys-disposal-and-d) | inaccessible |
+| Nepali Army Fugitives Action Regulation 2023 | [link](https://lawcommission.gov.np/content/13501/nepali-army-fugitives-action-regulation-2023) | inaccessible |
+| Nepali Language Publication Institute Ann 2021 | [link](https://lawcommission.gov.np/content/13388/nepali-language-publication-institute-ann--2021) | inaccessible |
+| Nepali Military Aviation Group Regulation Rules 2042 | [link](https://lawcommission.gov.np/content/13329/nepali-military-aviation-group-regulation-rules--2042) | inaccessible |
+| Nepali Vessel Registration Regulations 2028 | [link](https://lawcommission.gov.np/content/12672/nepali-vessel-registration-regulations--2028) | inaccessible |
+| Nepali Water Certificate And Rajmuni Act 2027 | [link](https://lawcommission.gov.np/content/13299/nepali-water--certificate-and-rajmuni--act--2027) | inaccessible |
+| New Nepal Construction Fund O | [link](https://lawcommission.gov.np/content/12635/12635-new-nepal-construction-fund-o) | inaccessible |
+| Non Military Air Flight Accid | [link](https://lawcommission.gov.np/content/12587/12587-non-military-air-flight-accid) | inaccessible |
+| Non Military Air Flight Civil Aviation Act 2015 | [link](https://lawcommission.gov.np/content/13295/non-military-air-flight--civil-aviation--act--2015) | inaccessible |
+| Non Resident Nepalese Regulati | [link](https://lawcommission.gov.np/content/12583/12583-non-resident-nepalese-regulati) | inaccessible |
+| Non Resident Nepali Act 2064 | [link](https://lawcommission.gov.np/content/12591/12591-non-resident-nepali-act-2064) | inaccessible |
+| Notary Public Act 2063 | [link](https://lawcommission.gov.np/content/13369/notary-public-act--2063) | inaccessible |
+| Notary Regulation 2041 | [link](https://lawcommission.gov.np/content/12934/12934-notary-regulation-2041) | inaccessible |
+| Nrandant Act 2082 | [link](https://lawcommission.gov.np/content/13535/nrandant-act--2082) | inaccessible |
+| Nyay Council Please Rules 2056 | [link](https://lawcommission.gov.np/content/13330/nyay-council--please--rules--2056) | inaccessible |
+| Oath Ordinance 2078 | [link](https://lawcommission.gov.np/content/12390/12390-oath-ordinance-2078) | inaccessible |
+| Oath Related Instrument 2079 | [link](https://lawcommission.gov.np/content/13475/oath-related-instrument--2079) | inaccessible |
+| Office Establishment Rules 20 | [link](https://lawcommission.gov.np/content/12479/12479-office-establishment-rules-20) | inaccessible |
+| Operational Fund Rules 2052 | [link](https://lawcommission.gov.np/content/12478/12478-operational-fund-rules-2052) | inaccessible |
+| Optional Articles To The Conve | [link](https://lawcommission.gov.np/content/12338/12338-optional-articles-to-the-conve) | inaccessible |
+| Ordents For Amending Some Nepal Nepal Related Related | [link](https://lawcommission.gov.np/content/13510/ordents-for-amending-some-nepal-nepal-related-related) | inaccessible |
+| Order Regarding The Management | [link](https://lawcommission.gov.np/content/11261/11261-order-regarding-the-management) | inaccessible |
+| Ordinance Made To Amend Some Nepal Acts Related To Financial And Corporate Environment Reform And Improvement | [link](https://lawcommission.gov.np/content/13506/ordinance-made-to-amend-some-nepal-acts-related-to-financial-and-corporate-environment-reform-and-improvement) | inaccessible |
+| Ordinance Made To Amend Some Nepal Acts Related To Good Governance Promotion And Public Service Delivery | [link](https://lawcommission.gov.np/content/13505/ordinance-made-to-amend-some-nepal-acts-related-to-good-governance-promotion-and-public-service-delivery) | inaccessible |
+| Ordinance Made To Amend The Po | [link](https://lawcommission.gov.np/content/12387/12387-ordinance-made-to-amend-the-po) | inaccessible |
+| Ordinance To Amend Certain Law | [link](https://lawcommission.gov.np/content/12386/12386-ordinance-to-amend-certain-law) | inaccessible |
+| Ordinance To Amend Certain Law | [link](https://lawcommission.gov.np/content/12385/12385-ordinance-to-amend-certain-law) | inaccessible |
+| Ordinance To Amend The Constit | [link](https://lawcommission.gov.np/content/12392/12392-ordinance-to-amend-the-constit) | inaccessible |
+| Ordinance To Make Provisions R | [link](https://lawcommission.gov.np/content/12383/12383-ordinance-to-make-provisions-r) | inaccessible |
+| Organization Registration Regu | [link](https://lawcommission.gov.np/content/13026/13026-organization-registration-regu) | inaccessible |
+| Ornament Regulation 2065 | [link](https://lawcommission.gov.np/content/12959/12959-ornament-regulation-2065) | inaccessible |
+| Ownership Of Joint Housing Act | [link](https://lawcommission.gov.np/content/12186/12186-ownership-of-joint-housing-act) | inaccessible |
+| Partnership Act 2020 | [link](https://lawcommission.gov.np/content/12140/partnership-act--2020) | inaccessible |
+| Pashupati Area Development Tru | [link](https://lawcommission.gov.np/content/12901/12901-pashupati-area-development-tru) | inaccessible |
+| Passport Act 2019 | [link](https://lawcommission.gov.np/content/12708/12708-passport-act-2019) | inaccessible |
+| Passport Act 2024 | [link](https://lawcommission.gov.np/content/13457/passport-act--2024) | inaccessible |
+| Passport Regulation 2077 | [link](https://lawcommission.gov.np/content/12856/12856-passport-regulation-2077) | inaccessible |
+| Patan Academy Of Health Scienc | [link](https://lawcommission.gov.np/content/12865/12865-patan-academy-of-health-scienc) | inaccessible |
+| Patent Design And Trademark Ac | [link](https://lawcommission.gov.np/content/12142/12142-patent-design-and-trademark-ac) | inaccessible |
+| Payment And Settlement Act 20 | [link](https://lawcommission.gov.np/content/12215/12215-payment-and-settlement-act-20) | inaccessible |
+| Peace Fund Operation Regulat | [link](https://lawcommission.gov.np/content/12985/12985-peace-fund-operation-regulat) | inaccessible |
+| Pokhara Academy Of Health And | [link](https://lawcommission.gov.np/content/12870/12870-pokhara-academy-of-health-and) | inaccessible |
+| Police Act 2012 | [link](https://lawcommission.gov.np/content/13441/police-act--2012) | inaccessible |
+| Poverty Alleviation Fund Act 2063 | [link](https://lawcommission.gov.np/content/13424/poverty-alleviation-fund-act--2063) | inaccessible |
+| Press Council Procedure Regu | [link](https://lawcommission.gov.np/content/12750/12750-press-council-procedure-regu) | inaccessible |
+| Prevention Of Money Laundering | [link](https://lawcommission.gov.np/content/13001/13001-prevention-of-money-laundering) | inaccessible |
+| Prevention Of Organized Crime | [link](https://lawcommission.gov.np/content/12259/12259-prevention-of-organized-crime) | inaccessible |
+| Price Classes An 2052 | [link](https://lawcommission.gov.np/content/13433/price-classes-an--2052) | inaccessible |
+| Price Increment Tax Rules 2053 | [link](https://lawcommission.gov.np/content/12816/price-increment-tax-rules--2053) | inaccessible |
+| Primary And Secondary Market M | [link](https://lawcommission.gov.np/content/12453/12453-primary-and-secondary-market-m) | inaccessible |
+| Prime Ministers Relief Fund R | [link](https://lawcommission.gov.np/content/12697/12697-prime-ministers-relief-fund-r) | inaccessible |
+| Printing And Publication Act 2048 | [link](https://lawcommission.gov.np/content/13391/printing-and-publication-act--2048) | inaccessible |
+| Prison Act 2079 | [link](https://lawcommission.gov.np/content/12241/12241-prison-act-2079) | inaccessible |
+| Prison Rules 2020 | [link](https://lawcommission.gov.np/content/12477/12477-prison-rules-2020) | inaccessible |
+| Prison Wages And Supreme Court Answers Act | [link](https://lawcommission.gov.np/content/13378/prison-wages-and-supreme-court-answers-act-) | inaccessible |
+| Prithvi Narayan Shahs Divine | [link](https://lawcommission.gov.np/content/11174/11174-prithvi-narayan-shahs-divine) | inaccessible |
+| Private Firm Registration Regu | [link](https://lawcommission.gov.np/content/12700/12700-private-firm-registration-regu) | inaccessible |
+| Private Firms Registration Act | [link](https://lawcommission.gov.np/content/12139/12139-private-firms-registration-act) | inaccessible |
+| Private Forests Nationalizatio | [link](https://lawcommission.gov.np/content/12551/12551-private-forests-nationalizatio) | inaccessible |
+| Profit Profilet Money Lingiering Reting Rules 2066 | [link](https://lawcommission.gov.np/content/13342/profit-profilet--money-lingiering--reting-rules--2066) | inaccessible |
+| Proof Ann 2031 | [link](https://lawcommission.gov.np/content/13361/proof-ann--2031) | inaccessible |
+| Property Purity Money Lingiering Retainment Rules 2081 | [link](https://lawcommission.gov.np/content/13491/property-purity--money-lingiering--retainment-rules--2081) | inaccessible |
+| Property Tax Rules 2017 | [link](https://lawcommission.gov.np/content/13000/13000-property-tax-rules-2017) | inaccessible |
+| Protocol Relating To The Madri | [link](https://lawcommission.gov.np/content/13153/13153-protocol-relating-to-the-madri) | inaccessible |
+| Protocol To Amend The Slavery | [link](https://lawcommission.gov.np/content/12362/12362-protocol-to-amend-the-slavery) | inaccessible |
+| Province Public Service Commis | [link](https://lawcommission.gov.np/content/12890/12890-province-public-service-commis) | inaccessible |
+| Provincial Assembly Member Ele | [link](https://lawcommission.gov.np/content/12691/12691-provincial-assembly-member-ele) | inaccessible |
+| Provincial Assembly Member Ele | [link](https://lawcommission.gov.np/content/11975/11975-provincial-assembly-member-ele) | inaccessible |
+| Provincial Development Plans | [link](https://lawcommission.gov.np/content/12177/12177-provincial-development-plans) | inaccessible |
+| Public Debt Management Regulat | [link](https://lawcommission.gov.np/content/13050/13050-public-debt-management-regulat) | inaccessible |
+| Public Establishment Government Investment Management Act 2050 | [link](https://lawcommission.gov.np/content/13407/public-establishment--government-investment--management-act--2050) | inaccessible |
+| Public Health Service Regulati | [link](https://lawcommission.gov.np/content/12609/12609-public-health-service-regulati) | inaccessible |
+| Public Loan Management Act 2079 | [link](https://lawcommission.gov.np/content/13413/public-loan-management-act--2079) | inaccessible |
+| Public Private Partnership And | [link](https://lawcommission.gov.np/content/13052/13052-public-private-partnership-and) | inaccessible |
+| Public Private Partnership And | [link](https://lawcommission.gov.np/content/12168/12168-public-private-partnership-and) | inaccessible |
+| Public Procurement Act 2063 | [link](https://lawcommission.gov.np/content/12891/12891-public-procurement-act-2063) | inaccessible |
+| Public Procurement Regulation | [link](https://lawcommission.gov.np/content/13051/13051-public-procurement-regulation) | inaccessible |
+| Railway Ordinance 2069 | [link](https://lawcommission.gov.np/content/13471/railway-ordinance--2069) | ingestable |
+| अख्तियार दुरुपयोग अनुसन्धान आयोग ऐन, २०४८ |  | excluded |
+| अचल सम्पत्ति अधिग्रहण ऐन, २०१३ |  | inaccessible |
+| अध्यागमन ऐन, २०४९ |  | excluded |
+| अनिवार्य तथा निःशुल्क शिक्षा सम्बन्धी ऐन, २०७५ |  | excluded |
+| अनुगमन तथा मूल्याङ्कन ऐन, २०८० |  | excluded |
+| अन्तः शुल्क ऐन, २०५८ |  | excluded |
+| अन्तर-सरकारी वित्त व्यवस्थापन ऐन, २०७४ |  | excluded |
+| अन्तर्राष्ट्रिय एकीकृत पर्वतीय विकास केन्द्र ऐन, २०४० |  | excluded |
+| अन्तर्राष्ट्रिय फाइनान्स कर्पोरेशनको सदस्यता प्राप्त गर्ने ऐन, २०२२ |  | inaccessible |
+| अन्तर्राष्ट्रिय विकास एशोसिएसनको सदस्यता प्राप्त गर्ने ऐन, २०१९ |  | excluded |
+| अन्तर्राष्ट्रिय वित्तीय कारोबार ऐन, २०५४ |  | excluded |
+| अपराध पीडित संरक्षण ऐन, २०७५ |  | excluded |
+| अपाङ्गता भएका व्यक्तिको अधिकार सम्बन्धी ऐन, २०७४ |  | excluded |
+| अभिलेख संरक्षण ऐन, २०४६ |  | excluded |
+| आदिवासी जनजाति आयोग ऐन, २०७४ |  | excluded |
+| आदिवासी/जनजाति उत्थान राष्ट्रिय प्रतिष्ठान ऐन, २०५८ |  | excluded |
+| आन्तरिक हुलाक वस्तु (बीमा गर्ने) ऐन, २०१९ |  | excluded |
+| आमाको दूधलाई प्रतिस्थापन गर्ने वस्तु (बिक्री वितरण नियन्त्रण) ऐन, २०४९ |  | excluded |
+| आय टिकट दस्तुर ऐन, २०१९ |  | excluded |
+| आयकर ऐन, २०५८ |  | excluded |
+| आयुर्वेद चिकित्सा परिषद् ऐन, २०४५ |  | excluded |
+| आयोडिनयुक्त नून (उत्पादन तथा बिक्री वितरण) ऐन, २०५५ |  | excluded |
+| आर्थिक कार्यविधि तथा वित्तीय उत्तरदायित्व ऐन, २०७६ |  | excluded |
+| आवश्यक पदार्थ (नियन्त्रण) अधिकार ऐन, २०१७ |  | excluded |
+| आवश्यक वस्तु संरक्षण ऐन, २०१२ |  | excluded |
+| आवश्यक सेवा सञ्चालन ऐन, २०१४ |  | excluded |
+| आवासको अधिकार सम्बन्धी ऐन, २०७५ |  | excluded |
+| उखडा सम्बन्धी ऐन, २०२१ |  | excluded |
+| उच्च अदालत तथा जिल्ला अदालतका न्यायाधीशहरुको पारिश्रमिक, सुविधा र सेवाका अन्य शर्त सम्बन्धी ऐन, २०७४ |  | excluded |
+| उपभोक्ता संरक्षण ऐन, २०७५ |  | excluded |
+| औद्योगिक व्यवसाय ऐन, २०७६ |  | excluded |
+| औद्योगिक व्यवसाय विकास प्रतिष्ठान ऐन, २०५३ |  | excluded |
+| औषधि ऐन, २०३५ |  | excluded |
+| कमैया श्रम (निषेध गर्ने) सम्बन्धी ऐन, २०५८ |  | excluded |
+| कम्पनी ऐन, २०६३ |  | excluded |
+| कर्णाली स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०६८ |  | excluded |
+| कर्मचारी सञ्चय कोष ऐन, २०१९ |  | excluded |
+| कर्मचारी समायोजन ऐन, २०७५ |  | excluded |
+| कसूरजन्य सम्पत्ति तथा साधन (रोक्का, नियन्त्रण र जफत) ऐन, २०७० |  | excluded |
+| काठमाडौं उपत्यका विकास प्राधिकरण ऐन, २०४५ |  | excluded |
+| काठमाडौं विश्वविद्यालय ऐन, २०४८ |  | excluded |
+| कानूनी सहायता सम्बन्धी ऐन, २०५४ |  | excluded |
+| कारागार ऐन, २०७९ |  | excluded |
+| कार्य सञ्चालन कोष ऐन, २०४३ |  | excluded |
+| कार्यस्थलमा हुने यौनजन्य दुर्व्यवहार (निवारण) ऐन, २०७१ |  | excluded |
+| कालोबजार तथा केही अन्य सामाजिक अपराध तथा सजाय ऐन, २०३२ |  | inaccessible |
+| कृषि तथा वन विश्वविद्यालय ऐन, २०६७ |  | inaccessible |
+| केही सार्वजनिक लिखत प्रमाणीकरण (कार्यविधि) ऐन, २०६३ |  | excluded |
+| क्षतिपूर्ति ऐन, २०१९ |  | excluded |
+| खर्क जग्गा राष्ट्रियकरण ऐन, २०३१ |  | excluded |
+| खाद्य अधिकार तथा खाद्य सम्प्रभूता सम्बन्धी ऐन, २०७५ |  | excluded |
+| खाद्य स्वच्छता तथा गुणस्तर ऐन, २०८१ |  | excluded |
+| खानी तथा खनिज पदार्थ ऐन, २०४२ |  | excluded |
+| खानेपानी तथा सरसफाई ऐन, २०७९ |  | excluded |
+| खानेपानी व्यवस्थापन बोर्ड ऐन, २०६३ |  | excluded |
+| खोप ऐन, २०७२ |  | excluded |
+| गरिबी निवारण कोष ऐन, २०६३ |  | excluded |
+| गुठी संस्थान ऐन, २०३३ |  | excluded |
+| गैर आवासीय नेपाली सम्बन्धी ऐन, २०६४ |  | excluded |
+| गैर सैनिक हवाई उडान (सिभिल एभिएसन) ऐन, २०१५ |  | excluded |
+| गोरखापत्र संस्थान ऐन, २०१९ |  | excluded |
+| घरेलु हिंसा (कसूर र सजाय) ऐन, २०६६ |  | excluded |
+| चन्दा ऐन, २०३० |  | excluded |
+| चलचित्र (निर्माण, प्रदर्शन तथा वितरण) ऐन, २०२६ |  | excluded |
+| चिठ्ठा ऐन, २०२५ |  | excluded |
+| छात्रवृत्ति सम्बन्धी ऐन, २०२१ |  | excluded |
+| छापाखाना र प्रकाशन सम्बन्धी ऐन, २०४८ |  | excluded |
+| जग्गा (नाप जाँच) ऐन, २०१९ |  | excluded |
+| जग्गा प्राप्ति ऐन, २०३४ |  | excluded |
+| जनस्वास्थ्य सेवा ऐन, २०७५ |  | excluded |
+| जलचर संरक्षण ऐन, २०१७ |  | excluded |
+| जलस्रोत ऐन, २०४९ |  | excluded |
+| जाँचबुझ आयोग ऐन, २०२६ |  | excluded |
+| जातीय तथा अन्य सामाजिक छुवाछूत र भेदभाव (कसूर र सजाय) ऐन, २०६८ |  | excluded |
+| जीवनाशक विषादी व्यवस्थापन ऐन, २०७६ |  | excluded |
+| जेष्ठ नागरिक सम्बन्धी ऐन, २०६३ |  | excluded |
+| झोरा क्षेत्रको जग्गा सम्बन्धी ऐन, २०२८ |  | excluded |
+| ट्रेड यूनियन ऐन, २०४९ |  | excluded |
+| तथ्याङ्क ऐन, २०७९ |  | excluded |
+| तेजाब तथा अन्य घातक रासायनिक पदार्थ (नियमन) ऐन, २०७९ |  | excluded |
+| त्रिभुवन विश्वविद्यालय ऐन, २०४९ |  | excluded |
+| थारु आयोग ऐन, २०७४ |  | excluded |
+| दाना पदार्थ ऐन, २०३३ |  | excluded |
+| दूर सञ्चार ऐन, २०५३ |  | excluded |
+| धितोपत्र सम्बन्धी ऐन, २०६३ |  | excluded |
+| नगर विकास ऐन, २०४५ |  | excluded |
+| नगर विकास कोष ऐन, २०५३ |  | excluded |
+| नागरिक लगानी कोष ऐन, २०४७ |  | excluded |
+| निकासी पैठारी (नियन्त्रण) ऐन, २०१३ |  | excluded |
+| निक्षेप तथा कर्जा सुरक्षण कोष ऐन, २०७३ |  | excluded |
+| निजामती सेवा ऐन, २०४९ |  | excluded |
+| निजी वन जंगल राष्ट्रियकरण ऐन, २०१३ |  | excluded |
+| निजीकरण ऐन, २०५० |  | excluded |
+| निर्माण व्यवसाय ऐन, २०५५ |  | excluded |
+| निर्वाचन (कसूर र सजाय) ऐन, २०७३ |  | excluded |
+| निर्वाचन आयोग ऐन, २०७३ |  | excluded |
+| निर्वाचन क्षेत्र निर्धारण ऐन, २०७३ |  | excluded |
+| निवृत्तभरण कोष ऐन, २०७५ |  | excluded |
+| नेपाल इन्जिनियरिङ परिषद् ऐन, २०५५ |  | excluded |
+| नेपाल एजेन्सी ऐन, २०१४ |  | excluded |
+| नेपाल कानून आयोग ऐन, २०६३ |  | excluded |
+| नेपाल कानून व्यवसायी परिषद् ऐन, २०५० |  | excluded |
+| नेपाल कानून व्याख्या सम्बन्धी ऐन, २०१० |  | excluded |
+| नेपाल कृषि अनुसन्धान परिषद् ऐन, २०४८ |  | excluded |
+| नेपाल खानेपानी संस्थान ऐन, २०४६ |  | excluded |
+| नेपाल खुला विश्वविद्यालय ऐन, २०७३ |  | excluded |
+| नेपाल गुणस्तर (प्रमाण चिन्ह) ऐन, २०३७ |  | inaccessible |
+| नेपाल चार्टर्ड एकाउन्टेन्टस ऐन, २०५३ |  | excluded |
+| नेपाल ट्रष्ट ऐन, २०६४ |  | excluded |
+| नेपाल नर्सिङ परिषद् ऐन, २०५२ |  | excluded |
+| नेपाल नागरिक उड्डयन प्राधिकरण ऐन, २०५३ |  | excluded |
+| नेपाल नागरिकता ऐन, २०६३ |  | excluded |
+| नेपाल पर्यटन बोर्ड ऐन, २०५३ |  | excluded |
+| नेपाल पशु चिकित्सा परिषद् ऐन, २०५५ |  | excluded |
+| नेपाल पानी जहाज (प्रमाणपत्र र रोजनामचा) ऐन, २०२७ |  | excluded |
+| नेपाल पेट्रोलियम ऐन, २०४० |  | excluded |
+| नेपाल प्रज्ञा प्रतिष्ठान ऐन, २०६४ |  | excluded |
+| नेपाल प्रशासनिक प्रशिक्षण प्रतिष्ठान ऐन, २०३९ |  | excluded |
+| नेपाल प्रहरी र प्रदेश प्रहरी (कार्य सञ्चालन, सुपरीवेक्षण र समन्वय) ऐन, २०७६ |  | excluded |
+| नेपाल फार्मेसी परिषद् ऐन, २०५७ |  | inaccessible |
+| नेपाल मेडिकल काउन्सिल ऐन, २०२० |  | excluded |
+| नेपाल राष्ट्र बैङ्क ऐन, २०५८ |  | excluded |
+| नेपाल रेल्वे ऐन, २०७९ |  | excluded |
+| नेपाल ललितकला प्रज्ञा प्रतिष्ठान ऐन, २०६४ |  | excluded |
+| नेपाल वायुसेवा निगम ऐन, २०१९ |  | excluded |
+| नेपाल विज्ञान तथा प्रविधि प्रज्ञा प्रतिष्ठान ऐन, २०४८ |  | excluded |
+| नेपाल विद्युत प्राधिकरण ऐन, २०४१ |  | excluded |
+| नेपाल विशेष सेवा ऐन, २०४२ |  | excluded |
+| नेपाल सङ्गित तथा नाट्य प्रज्ञा प्रतिष्ठान ऐन, २०६४ |  | excluded |
+| नेपाल सन्धि ऐन, २०४७ |  | excluded |
+| नेपाल संस्कृत विश्वविद्यालय ऐन, २०४३ |  | excluded |
+| नेपाल स्काउट ऐन, २०५० |  | excluded |
+| नेपाल स्वास्थ्य अनुसन्धान परिषद् ऐन, २०४७ |  | excluded |
+| नेपाल स्वास्थ्य व्यवसायी परिषद् ऐन, २०५३ |  | excluded |
+| नेपाल स्वास्थ्य सेवा ऐन, २०५३ |  | excluded |
+| नेपालको व्यापारिक पानी जहाजको झण्डा सम्बन्धी ऐन, २०२७ |  | excluded |
+| नेपाली भाषा प्रकाशन संस्थान ऐन, २०२१ |  | excluded |
+| नेपाली मुद्राको चलन चल्ती बढाउने ऐन, २०१४ |  | excluded |
+| नोटरी पब्लिक सम्बन्धी ऐन, २०६३ |  | excluded |
+| न्याय परिषद् ऐन, २०७३ |  | excluded |
+| न्याय प्रशासन ऐन, २०७३ |  | excluded |
+| न्याय सेवा आयोग ऐन, २०७३ |  | excluded |
+| न्यायिक कोष ऐन, २०४३ |  | excluded |
+| पर्यटन ऐन, २०३५ |  | excluded |
+| पशु बधशाला र मासु जाँच ऐन, २०५५ |  | excluded |
+| पशु स्वास्थ्य तथा पशु सेवा ऐन, २०५५ |  | excluded |
+| पशु स्वास्थ्य तथा पशु सेवा व्यवसाय परिषद् ऐन, २०७९ |  | excluded |
+| पशुपति क्षेत्र विकास कोष ऐन, २०४४ |  | excluded |
+| पाटन स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०६४ |  | excluded |
+| पानी कर ऐन, २०२३ |  | excluded |
+| पानी जहाज दर्ता ऐन, २०२७ |  | excluded |
+| पारस्परिक कानूनी सहायता ऐन, २०७० |  | excluded |
+| पूर्वाञ्चल विश्वविद्यालय ऐन, २०५० |  | excluded |
+| पेटेण्ट, डिजायन र ट्रेडमार्क ऐन, २०२२ |  | excluded |
+| पोखरा विश्वविद्यालय ऐन, २०५३ |  | excluded |
+| पोखरा स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०७२ |  | excluded |
+| प्रतिनिधि सभा सदस्य निर्वाचन ऐन, २०७४ |  | excluded |
+| प्रतिलिपि अधिकार ऐन, २०५९ |  | excluded |
+| प्रतिस्पर्धा प्रवर्द्धन तथा बजार संरक्षण ऐन, २०६३ |  | excluded |
+| प्रत्यायन ऐन, २०७९ |  | excluded |
+| प्रदेश प्रमुखको पारिश्रमिक तथा सुविधा सम्बन्धी ऐन, २०७४ |  | excluded |
+| प्रदेश लोक सेवा आयोग (आधार र मापदण्ड) निर्धारण ऐन, २०७५ |  | excluded |
+| प्रदेश सभा सदस्य निर्वाचन ऐन, २०७४ |  | excluded |
+| प्रधान न्यायाधीश तथा सर्वोच्च अदालतका न्यायाधीशको पारिश्रमिक, सविधा र सेवाका अन्य शर्त सम्बन्धी ऐन, २०७४ |  | excluded |
+| प्रमाण ऐन, २०३१ |  | excluded |
+| प्रशासकीय अदालत ऐन, २०७६ |  | excluded |
+| प्रशासकीय कार्यविधि (नियमित गर्ने) ऐन, २०१३ |  | excluded |
+| प्रहरी ऐन, २०१२ |  | excluded |
+| प्रहरी कर्मचारी समायोजन ऐन, २०७६ |  | excluded |
+| प्राइभेट फर्म रजिष्ट्रेशन ऐन, २०१४ |  | excluded |
+| प्राचीन स्मारक संरक्षण ऐन, २०१३ |  | excluded |
+| प्रादेशिक विकास योजनाहरु (कार्यान्वित गर्ने) ऐन, २०१३ |  | excluded |
+| प्राविधिक शिक्षा तथा व्यावसायिक तालिम परिषद् ऐन, २०४५ |  | excluded |
+| प्रेस काउन्सिल ऐन, २०४८ |  | excluded |
+| फोहोर मैला व्यवस्थापन ऐन, २०६८ |  | excluded |
+| फौजदारी कसूर (सजाय निर्धारण तथा कार्यान्वयन) ऐन, २०७४ |  | excluded |
+| बाल श्रम (निषेध र नियमित गर्ने) ऐन, २०५६ |  | excluded |
+| बालबालिका सम्बन्धी ऐन, २०७५ |  | excluded |
+| बिफर नियन्त्रण ऐन, २०२० |  | excluded |
+| बिरुवा संरक्षण ऐन, २०६४ |  | excluded |
+| बिर्ता उन्मूलन ऐन, २०१६ |  | excluded |
+| बिर्तावालले बिर्तामा रकम (भट्टी चर्सा आदि) लगाई लिन खान नपाउने ऐन, २०१५ |  | excluded |
+| बीउ बिजन ऐन, २०४५ |  | excluded |
+| बीमा ऐन, २०७९ |  | excluded |
+| बृहत्तर जनकपुर क्षेत्र विकास परिषद् ऐन, २०५५ |  | excluded |
+| बेपत्ता पारिएका व्यक्तिको छानविन, सत्य निरुपण तथा मेलमिलाप आयोग ऐन, २०७१ |  | excluded |
+| बैङ्क तथा वित्तीय संस्था सम्बन्धी ऐन, २०७३ |  | excluded |
+| बैङ्क तथा वित्तीय संस्थाको ऋण असुली ऐन, २०५८ |  | excluded |
+| बैङ्किङ्ग कसूर तथा सजाय ऐन, २०६४ |  | excluded |
+| बोक्सीको आरोप (कसूर र सजाय) ऐन, २०७२ |  | excluded |
+| बोनस ऐन, २०३० |  | excluded |
+| ब्रेटन उड्स सम्झौता ऐन, २०१८ |  | excluded |
+| भन्सार ऐन, २०६४ |  | excluded |
+| भवन ऐन, २०५५ |  | excluded |
+| भाषा आयोग ऐन, २०७४ |  | excluded |
+| भुक्तानी तथा फर्स्यौट ऐन, २०७५ |  | excluded |
+| भू तथा जलाधार संरक्षण ऐन, २०३९ |  | excluded |
+| भू-उपयोग ऐन, २०७६ |  | excluded |
+| भूकम्पबाट प्रभावित संरचनाको पुनर्निमाण सम्बन्धी ऐन, २०७२ |  | excluded |
+| भूमि सम्बन्धी ऐन, २०२१ |  | excluded |
+| भ्रष्टाचार निवारण ऐन, २०५९ |  | excluded |
+| मतदाता नामावली सम्बन्धी ऐन, २०७३ |  | excluded |
+| मदन भण्डारी विज्ञान तथा प्रविधि विश्वविद्यालय ऐन, २०७९ |  | excluded |
+| मदिरा ऐन, २०३१ |  | excluded |
+| मधेसी अयोग ऐन, २०७४ |  | excluded |
+| मध्यपश्चिम विश्वविद्यालय ऐन, २०६७ |  | excluded |
+| मध्यस्थता ऐन, २०५५ |  | excluded |
+| मन्त्रीहरुको पारिश्रमिक र सुविधा सम्बन्धी ऐन, २०४९ |  | excluded |
+| महान्यायाधिवक्ताको पारिश्रमिक, सेवाको शर्त र सुविधा सम्बन्धी ऐन, २०५२ |  | excluded |
+| महाभियोग (कार्यविधि नियमित गर्ने) ऐन, २०५९ |  | excluded |
+| मानव बेचबिखन तथा ओसार पसार (नियन्त्रण) ऐन, २०६४ |  | excluded |
+| मालपोत ऐन, २०३४ |  | excluded |
+| मालसामानको बहुविधिक ढुवानी ऐन, २०६३ |  | excluded |
+| मुस्लिम आयोग ऐन, २०७४ |  | excluded |
+| मूल्य अभिवृद्धि कर ऐन, २०५२ |  | excluded |
+| मेलमिलाप सम्बन्धी ऐन, २०६८ |  | excluded |
+| यातना सम्बन्धी क्षतिपूर्ति ऐन, २०५३ |  | excluded |
+| योगदानमा आधारित सामाजिक सुरक्षा ऐन, २०७४ |  | excluded |
+| योगमाया आयुर्वेद विश्वविद्यालय ऐन, २०७९ |  | excluded |
+| राजनीतिक दल सम्बन्धी ऐन, २०७३ |  | excluded |
+| राजर्षिजनक विश्वविद्यालय ऐन, २०७४ |  | excluded |
+| राजश्व चुहावट (अनुसन्धान तथा नियन्त्रण) ऐन, २०५२ |  | excluded |
+| राजश्व न्यायाधिकरण ऐन, २०३१ |  | excluded |
+| राज्य अदालत उन्मूलन ऐन, २०१७ |  | excluded |
+| राज्य रजौटा ऐन, २०१७ |  | excluded |
+| राप्ती स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०७४ |  | excluded |
+| राप्तीदून विकास क्षेत्रको जमीनको (बिक्री वितरण) व्यवस्था ऐन, २०२४ |  | excluded |
+| राष्ट्रपति तथा उपराष्ट्रपतिको निर्वाचन सम्बन्धी ऐन, २०७४ |  | excluded |
+| राष्ट्रपति तथा उपराष्ट्रपतिको पारिश्रमिक तथा सुविधा सम्बन्धी ऐन, २०७४ |  | excluded |
+| राष्ट्रिय खेलकुद विकास ऐन, २०७७ |  | excluded |
+| राष्ट्रिय चिकित्सा शिक्षा ऐन, २०७५ |  | excluded |
+| राष्ट्रिय चिया तथा कफी विकास बोर्ड ऐन, २०४९ |  | excluded |
+| राष्ट्रिय दलित आयोग ऐन, २०७४ |  | excluded |
+| राष्ट्रिय दुग्ध विकास बोर्ड ऐन, २०४८ |  | excluded |
+| राष्ट्रिय निकुञ्ज तथा वन्यजन्तु संरक्षण ऐन, २०२९ |  | inaccessible |
+| राष्ट्रिय निर्देशन ऐन, २०१८ |  | excluded |
+| राष्ट्रिय न्यायिक प्रतिष्ठान ऐन, २०६३ |  | excluded |
+| राष्ट्रिय परिचयपत्र तथा पञ्जिकरण ऐन, २०७६ |  | excluded |
+| राष्ट्रिय प्रकृति संरक्षण कोष ऐन, २०३९ |  | excluded |
+| राष्ट्रिय प्रसारण ऐन, २०४९ |  | excluded |
+| राष्ट्रिय प्राकृतिक स्रोत तथा वित्त आयोग ऐन, २०७४ |  | excluded |
+| राष्ट्रिय महिला आयोग ऐन, २०७४ |  | excluded |
+| राष्ट्रिय मानव अधिकार आयोग ऐन, २०६८ |  | excluded |
+| राष्ट्रिय युवा परिषद् ऐन, २०७२ |  | excluded |
+| राष्ट्रिय सभा सदस्य निर्वाचन ऐन, २०७५ |  | excluded |
+| राष्ट्रिय समाचार समिति ऐन, २०१९ |  | excluded |
+| राष्ट्रिय समावेशी आयोग ऐन, २०७४ |  | excluded |
+| राष्ट्रिय सहकारी विकास बोर्ड ऐन, २०४९ |  | excluded |
+| राष्ट्रिय सेवा दल ऐन, २०२७ |  | excluded |
+| राहदानी ऐन, २०७६ |  | excluded |
+| रेडियो ऐन, २०१४ |  | excluded |
+| रेडियोधर्मी पदार्थ (उपयोग तथा नियमन) ऐन, २०७७ |  | excluded |
+| रोजगारीको हक सम्बन्धी ऐन, २०७५ |  | excluded |
+| लागू औषध (नियन्त्रण) ऐन, २०३३ |  | excluded |
+| लिखतहरुको गोप्यता सम्बन्धी ऐन, २०३९ |  | excluded |
+| लुम्बिनी बौद्ध विश्वविद्यालय ऐन, २०६३ |  | excluded |
+| लुम्बिनी विकास कोष ऐन, २०४२ |  | excluded |
+| लेखापरीक्षण ऐन, २०७५ |  | excluded |
+| लोक सेवा आयोग ऐन, २०७९ |  | excluded |
+| वन ऐन, २०७६ |  | excluded |
+| वस्तु विनिमय बजार सम्बन्धी ऐन, २०७४ |  | excluded |
+| वस्तुको प्रत्यक्ष बिक्री (व्यवस्थापन तथा नियमन गर्ने) ऐन, २०७४ |  | excluded |
+| वातावरण संरक्षण ऐन, २०७६ |  | excluded |
+| विकास समिति ऐन, २०१३ |  | excluded |
+| वित्तीय मध्यस्थताको काम गर्ने संस्था सम्बन्धी ऐन, २०५५ |  | excluded |
+| विदेशमा लगानी गर्न प्रतिबन्ध लगाउने ऐन, २०२१ |  | excluded |
+| विदेशी राज्य र कूटनैतिक प्रतिनिधिको सुविधा तथा उन्मुक्ति ऐन, २०२७ |  | excluded |
+| विदेशी लगानी तथा प्रविधि हस्तान्तरण ऐन, २०७५ |  | excluded |
+| विदेशी विनिमय (नियमित गर्ने) ऐन, २०१९ |  | excluded |
+| विद्युत ऐन, २०४९ |  | excluded |
+| विद्युत चोरी नियन्त्रण ऐन, २०५८ |  | excluded |
+| विद्युत नियमन आयोग ऐन, २०७४ |  | excluded |
+| विद्युतीय (इलेक्ट्रोनिक) कारोबार सम्बन्धी ऐन, २०६३ |  | excluded |
+| विनिमेय अधिकारपत्र ऐन, २०३४ |  | excluded |
+| विपद् जोखिम न्यूनीकरण तथा व्यवस्थापन ऐन, २०७४ |  | excluded |
+| विभूषण ऐन, २०६४ |  | excluded |
+| विशेष अदालत ऐन, २०५९ |  | excluded |
+| विशेष आर्थिक क्षेत्र ऐन, २०७३ |  | excluded |
+| विश्वविद्यालय अनुदान आयोग ऐन, २०५० |  | excluded |
+| विस्फोटक पदार्थ ऐन, २०१८ |  | excluded |
+| वी.पी. कोईराला मेमोरियल क्यान्सर अस्पताल ऐन, २०५३ |  | excluded |
+| वी.पी. कोईराला स्वास्थ्य विज्ञान प्रतिष्ठान ऐन, २०४९ |  | excluded |
+| वैदेशिक रोजगार ऐन, २०६४ |  | excluded |
+| वैयक्तिक गोपनियता सम्बन्धी ऐन, २०७५ |  | excluded |
+| शपथ सम्बन्धी ऐन, २०७९ |  | excluded |
+| शहरी क्षेत्र सार्वजनिक यातायात (व्यवस्थापन) प्राधिकरण ऐन, २०७९ |  | excluded |
+| शहीद गंगालाल राष्ट्रिय हृदय केन्द्र ऐन, २०५७ |  | excluded |
+| शिक्षा ऐन, २०२८ |  | excluded |
+| श्रम ऐन, २०७४ |  | excluded |
+| श्रमजीवी पत्रकार सम्बन्धी ऐन, २०५१ |  | excluded |
+| संक्रामक रोग ऐन, २०२० |  | excluded |
+| संक्षिप्त कार्यविधि ऐन, २०२८ |  | excluded |
+| सङ्कटापन्न वन्यजन्तु तथा वनस्पतिको अन्तर्राष्ट्रिय व्यापार नियन्त्रण ऐन, २०७३ |  | excluded |
+| सङ्गठित अपराध निवारण ऐन, २०७० |  | excluded |
+| सङ्घ, प्रदेश र स्थानीय तह (समन्वय तथा अन्तरसम्बन्ध) ऐन, २०७७ |  | excluded |
+| सङ्घीय आकस्मिक कोष ऐन, २०७४ |  | excluded |
+| सङ्घीय संसद सचिवालय सम्बन्धी ऐन, २०६४ |  | excluded |
+| सङ्घीय संसदका पदाधिकारी तथा सदस्यहरुको पारिश्रमिक र सुविधा सम्बन्धी ऐन, २०७३ |  | excluded |
+| सङ्घीय संसदका महासचिव, प्रतिनिधिसभाका सचिव तथा राष्ट्रिय सभाका सचिवको पारिश्रमिक, सेवाको सर्त र सुविधा सम्बन्धी ऐन, २०७५ |  | excluded |
+| सञ्चार संस्थान ऐन, २०२८ |  | excluded |
+| सडक बोर्ड ऐन, २०५८ |  | excluded |
+| सपुर्दगी ऐन, २०७० |  | excluded |
+| समाज कल्याण ऐन, २०४९ |  | excluded |
+| सम्पत्ति शुद्धिकरण (मनि लाउन्डरिङ) निवारण ऐन, २०६४ |  | excluded |
+| संयुक्त आवासको स्वामित्व सम्बन्धी ऐन, २०५४ |  | excluded |
+| सर्वोच्च अदालत ऐन, २०४८ |  | excluded |
+| सवारी तथा यातायात व्यवस्था ऐन, २०४९ |  | excluded |
+| संवैधानिक निकायका पदाधिकारीहरुको पारिश्रमिक, सेवाको शर्त र सुविधा सम्बन्धी ऐन, २०५३ |  | excluded |
+| संवैधानिक परिषद् (काम, कर्तव्य, अधिकार र कार्यविधि) सम्बन्धी ऐन, २०६६ |  | excluded |
+| सशस्त्र प्रहरी ऐन, २०५८ |  | excluded |
+| संस्था दर्ता ऐन, २०३४ |  | excluded |
+| संस्थान ऐन, २०२१ |  | excluded |
+| सहकारी ऐन, २०७४ |  | excluded |
+| साझेदारी ऐन, २०२० |  | excluded |
+| सामयिक कर असुल ऐन, २०१२ |  | excluded |
+| सामाजिक व्यवहार (सुधार) ऐन, २०३३ |  | excluded |
+| सामाजिक सुरक्षा ऐन, २०७५ |  | excluded |
+| सार्वजनिक ऋण व्यवस्थापन ऐन, २०७९ |  | excluded |
+| सार्वजनिक खरिद ऐन, २०६३ |  | excluded |
+| सार्वजनिक सडक ऐन, २०३१ |  | excluded |
+| सार्वजनिक सुरक्षा ऐन, २०४६ |  | excluded |
+| सार्वजनिक-निजी साझेदारी तथा लगानी ऐन, २०७५ |  | excluded |
+| सुदूरपश्चिम विश्वविद्यालय ऐन, २०६७ |  | excluded |
+| सुरक्षित कारोबार ऐन, २०६३ |  | excluded |
+| सुरक्षित मातृत्व तथा प्रजनन् स्वास्थ्य अधिकार ऐन, २०७५ |  | excluded |
+| सुशासन (व्यवस्थापन तथा सञ्चालन) ऐन, २०६४ |  | excluded |
+| सूचनाको हक सम्बन्धी ऐन, २०६४ |  | excluded |
+| सूर्तिजन्य पदार्थ (नियन्त्रण र नियमन गर्ने) ऐन, २०६८ |  | excluded |
+| सेफगार्ड्स, एन्टी-डम्पिङ्ग तथा काउण्टरभेलिङ्ग ऐन, २०७६ |  | excluded |
+| सैनिक ऐन, २०६३ |  | excluded |
+| स्टाण्डर्ड नाप र तौल ऐन, २०२५ |  | excluded |
+| स्थानीय तह निर्वाचन ऐन, २०७३ |  | excluded |
+| स्थानीय प्रशासन ऐन, २०२८ |  | excluded |
+| स्थानीय विकास प्रशिक्षण प्रतिष्ठान ऐन, २०४९ |  | excluded |
+| स्थानीय सरकार सञ्चालन ऐन, २०७४ |  | excluded |
+| स्वास्थ्य बीमा ऐन, २०७४ |  | excluded |
+| स्वास्थ्यकर्मी तथा स्वास्थ्य संस्थाको सुरक्षा सम्बन्धी ऐन, २०६६ |  | excluded |
+| हातहतियार खरखजाना ऐन, २०१९ |  | excluded |
+| हुलाक ऐन, २०१९ |  | excluded |
+| होटेल व्यवस्था तथा मदिराको बिक्री वितरण (नियन्त्रण) ऐन, २०२३ |  | excluded |
