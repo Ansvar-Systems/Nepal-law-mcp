@@ -2,6 +2,149 @@
   "$schema": "./golden-tests.schema.json",
   "version": "1.0",
   "mcp_name": "Nepal Law MCP",
-  "description": "Golden contract tests for the Nepal Law MCP -- add tests after first ingestion",
-  "tests": []
+  "description": "Golden contract tests for the Nepal Law MCP -- verifies core tools against lawcommission.gov.np data",
+  "tests": [
+    {
+      "id": "search-001",
+      "category": "search",
+      "description": "Search for Criminal Code provisions using Nepali term",
+      "tool": "search_legislation",
+      "input": { "query": "कसूर", "limit": 5 },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "search-002",
+      "category": "search",
+      "description": "Search for Company Act provisions",
+      "tool": "search_legislation",
+      "input": { "query": "कम्पनी", "limit": 5 },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "search-003",
+      "category": "search",
+      "description": "Search for environment protection provisions",
+      "tool": "search_legislation",
+      "input": { "query": "वातावरण", "limit": 5 },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "search-004",
+      "category": "search",
+      "description": "Search scoped to a specific document (Criminal Code)",
+      "tool": "search_legislation",
+      "input": { "query": "नेपाल", "document_id": "np-content-13454", "limit": 5 },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "get-prov-001",
+      "category": "get_provision",
+      "description": "Get Section 1 of the Criminal Code 2074",
+      "tool": "get_provision",
+      "input": { "document_id": "np-content-13454", "section": "1" },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1,
+        "fields_present": ["results"]
+      }
+    },
+    {
+      "id": "get-prov-002",
+      "category": "get_provision",
+      "description": "Get provision by document title fuzzy match (Company Act)",
+      "tool": "get_provision",
+      "input": { "document_id": "Company Act", "section": "1" },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "get-prov-003",
+      "category": "get_provision",
+      "description": "Get all provisions of Bonus Act 2030",
+      "tool": "get_provision",
+      "input": { "document_id": "np-content-12144" },
+      "assertions": {
+        "result_not_empty": true,
+        "min_results": 1
+      }
+    },
+    {
+      "id": "check-currency-001",
+      "category": "check_currency",
+      "description": "Check currency of Criminal Code 2074",
+      "tool": "check_currency",
+      "input": { "document_id": "np-content-13454" },
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["in_force"]
+      }
+    },
+    {
+      "id": "list-sources-001",
+      "category": "list_sources",
+      "description": "List data sources returns jurisdiction info",
+      "tool": "list_sources",
+      "input": {},
+      "assertions": {
+        "result_not_empty": true,
+        "text_contains": ["Nepal", "lawcommission.gov.np"]
+      }
+    },
+    {
+      "id": "build-stance-001",
+      "category": "build_legal_stance",
+      "description": "Build legal stance on criminal penalties",
+      "tool": "build_legal_stance",
+      "input": { "query": "दण्ड सजाय", "limit": 3 },
+      "assertions": {
+        "result_not_empty": true
+      }
+    },
+    {
+      "id": "validate-citation-001",
+      "category": "validate_citation",
+      "description": "Validate citation for Criminal Code",
+      "tool": "validate_citation",
+      "input": { "citation": "Section 1, Criminal Code 2074" },
+      "assertions": {
+        "result_not_empty": true,
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "format-citation-001",
+      "category": "format_citation",
+      "description": "Format a citation in full format",
+      "tool": "format_citation",
+      "input": { "citation": "Section 5, Criminal Code 2074", "format": "full" },
+      "assertions": {
+        "result_not_empty": true,
+        "text_not_empty": true
+      }
+    },
+    {
+      "id": "search-005-graceful",
+      "category": "search",
+      "description": "Gracefully handles empty query",
+      "tool": "search_legislation",
+      "input": { "query": "xyznonexistent12345" },
+      "assertions": {
+        "handles_gracefully": true
+      }
+    }
+  ]
 }

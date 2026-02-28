@@ -1,6 +1,7 @@
 node_modules/
 dist/
 data/source/
+data/pdf/
 !data/.gitkeep
 .env
 .env.*

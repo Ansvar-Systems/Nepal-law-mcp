@@ -9,6 +9,7 @@
 
 const USER_AGENT = 'nepal-law-mcp/1.0 (https://github.com/Ansvar-Systems/nepal-law-mcp; hello@ansvar.ai)';
 const MIN_DELAY_MS = 500;
+const DEFAULT_TIMEOUT_MS = 30000; // Nepal law commission site is often slow/unreachable
 
 let lastRequestTime = 0;
 
@@ -36,13 +37,17 @@ export async function fetchWithRateLimit(url: string, maxRetries = 3): Promise<F
   await rateLimit();
 
   for (let attempt = 0; attempt <= maxRetries; attempt++) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), DEFAULT_TIMEOUT_MS);
     const response = await fetch(url, {
       headers: {
         'User-Agent': USER_AGENT,
         'Accept': 'text/html, */*',
       },
       redirect: 'follow',
+      signal: controller.signal,
     });
+    clearTimeout(timer);
 
     if (response.status === 429 || response.status >= 500) {
       if (attempt < maxRetries) {
