@@ -9,6 +9,8 @@ export interface ResponseMetadata {
   jurisdiction: string;
   disclaimer: string;
   freshness?: string;
+  note?: string;
+  query_strategy?: string;
 }
 
 export interface ToolResponse<T> {
@@ -30,12 +32,11 @@ export function generateResponseMetadata(
   }
 
   return {
-    data_source: 'Nepal Law (lawcommission.gov.np) — National Council for Law Reporting',
-    jurisdiction: 'KE',
+    data_source: 'Nepal Law Commission (lawcommission.gov.np) — Government of Nepal',
+    jurisdiction: 'NP',
     disclaimer:
-      'This data is sourced from Nepal Law under Government Open Data principles. ' +
-      'The authoritative versions are in English. Swahili translations may be available for some documents. ' +
-      'Always verify with the official Nepal Law portal (lawcommission.gov.np).',
+      'This data is sourced from the Nepal Law Commission under Government Open Data principles. ' +
+      'Always verify with the official Nepal Law Commission portal (lawcommission.gov.np).',
     freshness,
   };
 }
