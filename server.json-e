@@ -31,7 +31,7 @@
       "version": "1.0.0",
       "transport": {
         "type": "streamable-http",
-        "url": "https://mcp.ansvar.eu/law-nepal-law-mcp/mcp"
+        "url": "https://nepal-law-mcp.vercel.app/mcp"
       }
     }
   ]
