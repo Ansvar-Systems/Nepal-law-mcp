@@ -38,12 +38,12 @@ This MCP server makes Nepali law **searchable, cross-referenceable, and AI-reada
 
 > Connect directly to the hosted version -- zero dependencies, nothing to install.
 
-**Endpoint:** `https://mcp.ansvar.eu/law-nepal-law-mcp/mcp`
+**Endpoint:** `https://mcp.ansvar.eu/law-np/mcp`
 
 | Client | How to Connect |
 |--------|---------------|
 | **Claude.ai** | Settings > Connectors > Add Integration > paste URL |
-| **Claude Code** | `claude mcp add nepal-law --transport http https://mcp.ansvar.eu/law-nepal-law-mcp/mcp` |
+| **Claude Code** | `claude mcp add nepal-law --transport http https://mcp.ansvar.eu/law-np/mcp` |
 | **Claude Desktop** | Add to config (see below) |
 | **GitHub Copilot** | Add to VS Code settings (see below) |
 
@@ -54,7 +54,7 @@ This MCP server makes Nepali law **searchable, cross-referenceable, and AI-reada
   "mcpServers": {
     "nepal-law": {
       "type": "url",
-      "url": "https://mcp.ansvar.eu/law-nepal-law-mcp/mcp"
+      "url": "https://mcp.ansvar.eu/law-np/mcp"
     }
   }
 }
@@ -67,7 +67,7 @@ This MCP server makes Nepali law **searchable, cross-referenceable, and AI-reada
   "github.copilot.chat.mcp.servers": {
     "nepal-law": {
       "type": "http",
-      "url": "https://mcp.ansvar.eu/law-nepal-law-mcp/mcp"
+      "url": "https://mcp.ansvar.eu/law-np/mcp"
     }
   }
 }
