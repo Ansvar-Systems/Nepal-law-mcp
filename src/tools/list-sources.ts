@@ -52,7 +52,7 @@ export async function listSources(
             'All Acts of Parliament (revised edition), subsidiary legislation, ' +
             'the Constitution of Nepal (2010), Nepal Gazette notices, and selected case law ' +
             'from superior courts including the Supreme Court, Court of Appeal, and High Court',
-          languages: ['en', 'sw'],
+          languages: ['en', 'ne'],
         },
       ],
       database: {
@@ -63,6 +63,6 @@ export async function listSources(
         provision_count: safeCount(db, 'SELECT COUNT(*) as count FROM legal_provisions'),
       },
     },
-    _metadata: generateResponseMetadata(db),
+    _meta: generateResponseMetadata(db),
   };
 }

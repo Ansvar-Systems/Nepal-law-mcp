@@ -5,7 +5,7 @@
 import type Database from '@ansvar/mcp-sqlite';
 import { buildFtsQueryVariants, buildLikePattern, sanitizeFtsInput } from '../utils/fts-query.js';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateResponseMetadata, type ToolResponse, type CitationRef } from '../utils/metadata.js';
 
 export interface BuildLegalStanceInput {
   query: string;
@@ -21,6 +21,24 @@ export interface LegalStanceResult {
   title: string | null;
   snippet: string;
   relevance: number;
+  _citation?: CitationRef;
+}
+
+const RESEARCH_DISCLAIMER =
+  'FOR RESEARCH ONLY — Not legal advice. Verify all citations against official Nepal Law Commission sources before use.';
+
+function metaWithDisclaimer(db: InstanceType<typeof Database>, extra?: Record<string, string>) {
+  return { ...generateResponseMetadata(db), disclaimer: RESEARCH_DISCLAIMER, ...extra };
+}
+
+function addCitations(rows: LegalStanceResult[]): LegalStanceResult[] {
+  return rows.map(r => ({
+    ...r,
+    _citation: {
+      canonical_ref: `s${r.provision_ref.replace(/^(?:s|art)/, '')}, ${r.document_title}`,
+      lookup_tool: 'get_provision',
+    },
+  }));
 }
 
 export async function buildLegalStance(
@@ -28,7 +46,7 @@ export async function buildLegalStance(
   input: BuildLegalStanceInput,
 ): Promise<ToolResponse<LegalStanceResult[]>> {
   if (!input.query || input.query.trim().length === 0) {
-    return { results: [], _metadata: generateResponseMetadata(db) };
+    return { results: [], _meta: metaWithDisclaimer(db) };
   }
 
   const limit = Math.min(Math.max(input.limit ?? 5, 1), 20);
@@ -43,8 +61,8 @@ export async function buildLegalStance(
     if (!resolved) {
       return {
         results: [],
-        _metadata: {
-          ...generateResponseMetadata(db),
+        _meta: {
+          ...metaWithDisclaimer(db),
           note: `No document found matching "${input.document_id}"`,
         },
       };
@@ -81,13 +99,13 @@ export async function buildLegalStance(
       const rows = db.prepare(sql).all(...params) as LegalStanceResult[];
       if (rows.length > 0) {
         queryStrategy = ftsQuery === queryVariants[0] ? 'exact' : 'fallback';
-        const deduped = deduplicateResults(rows, limit);
+        const deduped = addCitations(deduplicateResults(rows, limit));
         return {
           results: deduped,
-          _metadata: {
-            ...generateResponseMetadata(db),
-            ...(queryStrategy === 'fallback' ? { query_strategy: 'broadened' } : {}),
-          },
+          _meta: metaWithDisclaimer(
+            db,
+            queryStrategy === 'fallback' ? { query_strategy: 'broadened' } : undefined,
+          ),
         };
       }
     } catch {
@@ -125,11 +143,8 @@ export async function buildLegalStance(
       const rows = db.prepare(sql).all(...likeParams) as LegalStanceResult[];
       if (rows.length > 0) {
         return {
-          results: deduplicateResults(rows, limit),
-          _metadata: {
-            ...generateResponseMetadata(db),
-            query_strategy: 'like_fallback',
-          },
+          results: addCitations(deduplicateResults(rows, limit)),
+          _meta: metaWithDisclaimer(db, { query_strategy: 'like_fallback' }),
         };
       }
     } catch {
@@ -137,7 +152,7 @@ export async function buildLegalStance(
     }
   }
 
-  return { results: [], _metadata: generateResponseMetadata(db) };
+  return { results: [], _meta: metaWithDisclaimer(db) };
 }
 
 /**

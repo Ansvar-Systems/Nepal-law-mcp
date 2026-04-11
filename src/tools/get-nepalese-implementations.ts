@@ -4,7 +4,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateResponseMetadata, type ToolResponse, type CitationRef } from '../utils/metadata.js';
 
 export interface GetNepaleseImplementationsInput {
   eu_document_id: string;
@@ -20,6 +20,7 @@ export interface NepaleseImplementationResult {
   implementation_status: string | null;
   is_primary: boolean;
   reference_count: number;
+  _citation?: CitationRef;
 }
 
 export async function getNepaleseImplementations(
@@ -31,7 +32,7 @@ export async function getNepaleseImplementations(
   } catch {
     return {
       results: [],
-      _metadata: {
+      _meta: {
         ...generateResponseMetadata(db),
         ...{ note: 'EU/international references not available in this database tier' },
       },
@@ -64,5 +65,9 @@ export async function getNepaleseImplementations(
   sql += ' GROUP BY ld.id, er.reference_type ORDER BY is_primary DESC, reference_count DESC';
 
   const rows = db.prepare(sql).all(...params) as NepaleseImplementationResult[];
-  return { results: rows, _metadata: generateResponseMetadata(db) };
+  const withCitations = rows.map(r => ({
+    ...r,
+    _citation: { canonical_ref: r.document_title, lookup_tool: 'get_provision' },
+  }));
+  return { results: withCitations, _meta: generateResponseMetadata(db) };
 }

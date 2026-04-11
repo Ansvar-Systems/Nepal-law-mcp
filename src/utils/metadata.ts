@@ -4,29 +4,38 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 
+export interface CitationRef {
+  canonical_ref: string;
+  lookup_tool: string;
+}
+
 export interface ResponseMetadata {
   data_source: string;
   jurisdiction: string;
   disclaimer: string;
-  freshness?: string;
+  data_age?: string;
   note?: string;
   query_strategy?: string;
 }
 
 export interface ToolResponse<T> {
   results: T;
-  _metadata: ResponseMetadata;
+  _meta: ResponseMetadata;
+  _error_type?: string;
 }
 
 export function generateResponseMetadata(
   db: InstanceType<typeof Database>,
 ): ResponseMetadata {
-  let freshness: string | undefined;
+  let data_age: string | undefined;
   try {
     const row = db.prepare(
       "SELECT value FROM db_metadata WHERE key = 'built_at'"
     ).get() as { value: string } | undefined;
-    if (row) freshness = row.value;
+    if (row) {
+      const d = new Date(row.value);
+      data_age = isNaN(d.getTime()) ? row.value : d.toISOString().slice(0, 10);
+    }
   } catch {
     // Ignore
   }
@@ -37,6 +46,6 @@ export function generateResponseMetadata(
     disclaimer:
       'This data is sourced from the Nepal Law Commission under Government Open Data principles. ' +
       'Always verify with the official Nepal Law Commission portal (lawcommission.gov.np).',
-    freshness,
+    data_age,
   };
 }

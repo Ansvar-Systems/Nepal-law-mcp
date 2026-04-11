@@ -4,7 +4,7 @@
 
 import type Database from '@ansvar/mcp-sqlite';
 import { resolveDocumentId } from '../utils/statute-id.js';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateResponseMetadata, type ToolResponse, type CitationRef } from '../utils/metadata.js';
 
 export interface GetProvisionInput {
   document_id: string;
@@ -23,6 +23,7 @@ export interface ProvisionResult {
   content: string;
   article_number?: string;
   url?: string;
+  _citation: CitationRef;
 }
 
 export async function getProvision(
@@ -33,10 +34,11 @@ export async function getProvision(
   if (!resolvedId) {
     return {
       results: [],
-      _metadata: {
+      _meta: {
         ...generateResponseMetadata(db),
         ...{ note: `No document found matching "${input.document_id}"` },
       },
+      _error_type: 'not_found',
     };
   }
 
@@ -44,7 +46,7 @@ export async function getProvision(
     'SELECT id, title, url FROM legal_documents WHERE id = ?'
   ).get(resolvedId) as { id: string; title: string; url: string | null } | undefined;
   if (!docRow) {
-    return { results: [], _metadata: generateResponseMetadata(db) };
+    return { results: [], _meta: generateResponseMetadata(db), _error_type: 'not_found' };
   }
 
   // Specific provision lookup
@@ -87,28 +89,34 @@ export async function getProvision(
     }
 
     if (provision) {
+      const provRef = String(provision.provision_ref);
       return {
         results: [{
           document_id: resolvedId,
           document_title: docRow.title,
-          provision_ref: String(provision.provision_ref),
+          provision_ref: provRef,
           chapter: provision.chapter as string | null,
           section: String(provision.section),
           title: provision.title as string | null,
           content: String(provision.content),
-          article_number: String(provision.provision_ref).replace(/^(?:s|art)/, ''),
+          article_number: provRef.replace(/^(?:s|art)/, ''),
           url: docRow.url ?? undefined,
+          _citation: {
+            canonical_ref: `s${provRef.replace(/^(?:s|art)/, '')}, ${docRow.title}`,
+            lookup_tool: 'get_provision',
+          },
         }],
-        _metadata: generateResponseMetadata(db),
+        _meta: generateResponseMetadata(db),
       };
     }
 
     return {
       results: [],
-      _metadata: {
+      _meta: {
         ...generateResponseMetadata(db),
         ...{ note: `Provision "${ref}" not found in document "${resolvedId}"` },
       },
+      _error_type: 'not_found',
     };
   }
 
@@ -118,17 +126,24 @@ export async function getProvision(
   ).all(resolvedId) as Record<string, unknown>[];
 
   return {
-    results: provisions.map(p => ({
-      document_id: resolvedId,
-      document_title: docRow.title,
-      provision_ref: String(p.provision_ref),
-      chapter: p.chapter as string | null,
-      section: String(p.section),
-      title: p.title as string | null,
-      content: String(p.content),
-      article_number: String(p.provision_ref).replace(/^(?:s|art)/, ''),
-      url: docRow.url ?? undefined,
-    })),
-    _metadata: generateResponseMetadata(db),
+    results: provisions.map(p => {
+      const provRef = String(p.provision_ref);
+      return {
+        document_id: resolvedId,
+        document_title: docRow.title,
+        provision_ref: provRef,
+        chapter: p.chapter as string | null,
+        section: String(p.section),
+        title: p.title as string | null,
+        content: String(p.content),
+        article_number: provRef.replace(/^(?:s|art)/, ''),
+        url: docRow.url ?? undefined,
+        _citation: {
+          canonical_ref: `s${provRef.replace(/^(?:s|art)/, '')}, ${docRow.title}`,
+          lookup_tool: 'get_provision',
+        },
+      };
+    }),
+    _meta: generateResponseMetadata(db),
   };
 }
