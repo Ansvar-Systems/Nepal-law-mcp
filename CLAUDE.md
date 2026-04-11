@@ -52,7 +52,7 @@ Nepal Law MCP server providing Nepalese legislation search via Model Context Pro
 
 - **Nepal Law** (nepallaw.org) -- National Council for Law Reporting
 - **License:** Government Open Data
-- **Languages:** English (en) is the primary legal language; Swahili (sw) for some documents
+- **Languages:** English (en) is the primary legal language; Nepali (ne) for some documents
 - **Coverage:** All Acts of Parliament, subsidiary legislation, Constitution of Nepal 2010, selected case law
 
 ## Nepal-Specific Notes

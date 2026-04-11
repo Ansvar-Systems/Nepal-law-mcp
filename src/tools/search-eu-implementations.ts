@@ -3,7 +3,7 @@
  */
 
 import type Database from '@ansvar/mcp-sqlite';
-import { generateResponseMetadata, type ToolResponse } from '../utils/metadata.js';
+import { generateResponseMetadata, type ToolResponse, type CitationRef } from '../utils/metadata.js';
 
 export interface SearchEUImplementationsInput {
   query?: string;
@@ -22,6 +22,7 @@ export interface EUImplementationSearchResult {
   title: string | null;
   short_name: string | null;
   nepalese_statute_count: number;
+  _citation?: CitationRef;
 }
 
 export async function searchEUImplementations(
@@ -33,7 +34,7 @@ export async function searchEUImplementations(
   } catch {
     return {
       results: [],
-      _metadata: {
+      _meta: {
         ...generateResponseMetadata(db),
         ...{ note: 'EU/international documents not available in this database tier' },
       },
@@ -87,5 +88,9 @@ export async function searchEUImplementations(
   params.push(limit);
 
   const rows = db.prepare(sql).all(...params) as EUImplementationSearchResult[];
-  return { results: rows, _metadata: generateResponseMetadata(db) };
+  const withCitations = rows.map(r => ({
+    ...r,
+    _citation: { canonical_ref: r.eu_document_id, lookup_tool: 'get_nepalese_implementations' },
+  }));
+  return { results: withCitations, _meta: generateResponseMetadata(db) };
 }
