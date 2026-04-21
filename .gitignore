@@ -9,3 +9,5 @@ data/pdf/
 coverage/
 .vercel/
 .DS_Store
+*-e
+*.bak
